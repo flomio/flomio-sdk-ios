@@ -1,2 +1,2 @@
-# flomio_sdk
-Dev kit to integrate Flomio products into iOS and Android apps
+# Flomio SDK
+A Software Development Kit with easy to use API to integrate Flomio products into your iOS and Android apps. 
