@@ -1,0 +1,1 @@
+../../../../../FlomioSDK/Classes/FmType4Tag.h

@@ -1,0 +1,1 @@
+../../../../../FlomioSDK/Classes/UgiTagReadState.h

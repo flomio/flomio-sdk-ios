@@ -1,0 +1,1 @@
+../../../../../FlomioSDK/Classes/FmConnectionsManager.h

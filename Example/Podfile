@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FlomioSDK_Example' do
+  pod 'FlomioSDK', :path => '../'
+
+  target 'FlomioSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

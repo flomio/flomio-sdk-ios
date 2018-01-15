@@ -1,0 +1,1 @@
+../../../../../FlomioSDK/Classes/FTaR530.h

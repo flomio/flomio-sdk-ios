@@ -1,0 +1,1 @@
+../../../../../FlomioSDK/Classes/UgiRfidConfiguration.h
