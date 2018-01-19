@@ -1,1 +1,0 @@
-../../../../../FlomioSDK/Classes/FmNdefManager.h

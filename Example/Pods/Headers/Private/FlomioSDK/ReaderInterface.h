@@ -1,1 +1,0 @@
-../../../../../FlomioSDK/Classes/ReaderInterface.h

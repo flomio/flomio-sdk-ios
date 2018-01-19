@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D0EDE92E4AF14F6030E2376BCB139ABF"
+               BlueprintIdentifier = "898878D1B93F9798D73DF3726518463E"
                BuildableName = "Pods_FlomioSDK_Example.framework"
                BlueprintName = "Pods-FlomioSDK_Example"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D0EDE92E4AF14F6030E2376BCB139ABF"
+            BlueprintIdentifier = "898878D1B93F9798D73DF3726518463E"
             BuildableName = "Pods_FlomioSDK_Example.framework"
             BlueprintName = "Pods-FlomioSDK_Example"
             ReferencedContainer = "container:Pods.xcodeproj">
