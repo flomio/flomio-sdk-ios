@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '40F581FA04AD52F3E23BDC835B273E6D'
+               BlueprintIdentifier = '2C756C0D4CC76D10265414B2E15C57C4'
                BlueprintName = 'FlomioSDK-FlomioSDK'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'FlomioSDK.bundle'>

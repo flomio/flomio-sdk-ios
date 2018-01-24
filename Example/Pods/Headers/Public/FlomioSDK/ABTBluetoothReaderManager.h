@@ -1,0 +1,1 @@
+../../../../../FlomioSDK/Headers/ABTBluetoothReaderManager.h

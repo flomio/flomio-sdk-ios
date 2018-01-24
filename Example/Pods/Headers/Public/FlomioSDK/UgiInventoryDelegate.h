@@ -1,0 +1,1 @@
+../../../../../FlomioSDK/Headers/UgiInventoryDelegate.h

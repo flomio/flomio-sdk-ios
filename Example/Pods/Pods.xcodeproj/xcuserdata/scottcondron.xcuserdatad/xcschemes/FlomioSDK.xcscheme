@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '4443A320E1B305DB8D49197E890C4172'
+               BlueprintIdentifier = 'BCE08805F9B0883430B68CC697F488BC'
                BlueprintName = 'FlomioSDK'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'FlomioSDK.framework'>
+               BuildableName = 'libFlomioSDK.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

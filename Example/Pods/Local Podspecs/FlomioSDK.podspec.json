@@ -5,8 +5,9 @@
   "homepage": "http://www.flomio.com",
   "license": {
     "type": "Copyright",
-    "text": "      Copyright 2017 Estimote, Inc. All rights reserved.\n"
+    "text": "        Copyright 2018 Flomio, Inc. All rights reserved.\n"
   },
+  "preserve_paths": "FlomioSDK/libSDKClasses.a",
   "requires_arc": true,
   "authors": {
     "scott@flomio.com": "condronscott@gmail.com"
@@ -15,13 +16,19 @@
     "git": "https://github.com/flomio/flomio_mw_releases.git",
     "tag": "2.3.0"
   },
-  "vendored_frameworks": "FlomioSDK/FlomioSDK.framework",
+  "vendored_libraries": "FlomioSDK/libSDKClasses.a",
   "source_files": [
-    "FlomioSDK/FlomioSDK.framework/Headers/*.h",
-    "FlomioSDK/Classes/*"
+    "FlomioSDK/Headers/*"
   ],
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
+  },
+  "libraries": "z",
+  "xcconfig": {
+    "LIBRARY_SEARCH_PATHS": "\"$(PODS_ROOT)/FlomioSDK\"",
+    "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/Headers/FlomioSDK\"",
+    "OTHER_LDFLAGS": "\"-lc++\"\n        \"-ObjC\"",
+    "ENABLE_BITCODE": "NO"
   },
   "resource_bundles": {
     "FlomioSDK": [
