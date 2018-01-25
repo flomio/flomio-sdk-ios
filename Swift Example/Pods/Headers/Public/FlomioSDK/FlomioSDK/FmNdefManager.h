@@ -1,0 +1,1 @@
+../../../../../../FlomioSDK/FlomioSDK.framework/Headers/FmNdefManager.h

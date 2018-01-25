@@ -1,0 +1,16 @@
+PODS:
+  - FlomioSDK (2.3.0)
+
+DEPENDENCIES:
+  - FlomioSDK (from `../`)
+
+EXTERNAL SOURCES:
+  FlomioSDK:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FlomioSDK: 4956737eeb81f2b9af03f455edf41e9a1708c4d4
+
+PODFILE CHECKSUM: 48bf3d51d25283b1e79a606d96a63892c469f2f7
+
+COCOAPODS: 1.4.0
