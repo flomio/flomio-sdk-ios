@@ -1,1 +1,0 @@
-../../../../../FlomioSDK/Headers/winscard.h

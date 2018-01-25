@@ -1,13 +1,15 @@
 {
   "name": "FlomioSDK",
   "version": "2.3.0",
+  "platforms": {
+    "ios": null
+  },
   "summary": "A turn-key middleware layer for Flomio's line of NFC, BLE, and UHF RFID readers.",
   "homepage": "http://www.flomio.com",
   "license": {
     "type": "Copyright",
     "text": "        Copyright 2018 Flomio, Inc. All rights reserved.\n"
   },
-  "preserve_paths": "FlomioSDK/libSDKClasses.a",
   "requires_arc": true,
   "authors": {
     "scott@flomio.com": "condronscott@gmail.com"
@@ -16,13 +18,10 @@
     "git": "https://github.com/flomio/flomio_mw_releases.git",
     "tag": "2.3.0"
   },
-  "vendored_libraries": "FlomioSDK/libSDKClasses.a",
+  "vendored_frameworks": "FlomioSDK/FlomioSDK.framework",
   "source_files": [
-    "FlomioSDK/Headers/*"
+    "FlomioSDK/FlomioSDK.framework/Headers/*"
   ],
-  "platforms": {
-    "ios": "9.0"
-  },
   "libraries": "z",
   "xcconfig": {
     "LIBRARY_SEARCH_PATHS": "\"$(PODS_ROOT)/FlomioSDK\"",
