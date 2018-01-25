@@ -1,9 +1,7 @@
 Pod::Spec.new do |s|
     s.name             = 'FlomioSDK'
     s.version          = '2.3.0'
-    s.platform = :ios, "9.0"
-    s.ios.deployment_target = '9.0'
-    s.summary          = "A turn-key middleware layer for Flomio's line of NFC, BLE, and UHF RFID readers."
+    s.summary          = "An iOS library for FLomio's line of NFC, BLE, and UHF RFID readers."
     s.homepage         = "http://www.flomio.com"
     s.license      = {
         :type => 'Copyright',
@@ -27,6 +25,7 @@ Pod::Spec.new do |s|
     s.resource_bundles = {
         'FlomioSDK' => ['FlomioSDK/Assets/*']
     }
+    s.ios.deployment_target = '8.0'
 end
 
 
