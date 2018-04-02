@@ -11,7 +11,7 @@ import FlomioSDK
 
 class ViewController: UIViewController, FmSessionManagerDelegate {
     
-    lazy var flomioMW : FmSessionManager = FmSessionManager()
+    lazy var flomioSDK : FmSessionManager = FmSessionManager()
     var deviceUuid : String?
     
     override func viewDidLoad() {
@@ -24,12 +24,12 @@ class ViewController: UIViewController, FmSessionManagerDelegate {
         defaultConfiguration.scanPeriod = 1000
         defaultConfiguration.powerOperation = PowerOperation.autoPollingControl
         defaultConfiguration.allowMultiConnect = false
-        flomioMW = FmSessionManager.init(configuration: defaultConfiguration)
-        flomioMW.delegate = self
+        flomioSDK = FmSessionManager.init(configuration: defaultConfiguration)
+        flomioSDK.delegate = self
     }
     
     func didFind(_ tag: FmTag!, fromDevice deviceId: String!) {
-        self.flomioMW.readNdef(deviceId) { (ndefMessage) in
+        self.flomioSDK.readNdef(deviceId) { (ndefMessage) in
             guard let ndefRecords = ndefMessage?.ndefRecords else { return }
             for case let record as NdefRecord in ndefRecords {
                 print("NDEF record payload: \(record.payloadString ?? "empty")")

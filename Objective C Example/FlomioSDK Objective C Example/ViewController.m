@@ -15,7 +15,7 @@
 
 @implementation ViewController {
     NSString *_deviceUuid;
-    FmSessionManager *flomioMW;
+    FmSessionManager *flomioSDK;
 }
 
 -(void)viewDidLoad {
@@ -31,12 +31,12 @@
     defaultConfiguration.powerOperation = kAutoPollingControl;
     defaultConfiguration.transmitPower = kHighPower;
     defaultConfiguration.allowMultiConnect = @NO;
-    flomioMW = [[FmSessionManager flomioMW] initWithConfiguration:defaultConfiguration];
-    flomioMW.delegate = self;
+    flomioSDK = [[FmSessionManager flomioMW] initWithConfiguration:defaultConfiguration];
+    flomioSDK.delegate = self;
 }
 
 - (void)didFindTag:(FmTag *)tag fromDevice:(NSString *)deviceUuid{
-    [flomioMW readNdef:deviceUuid success:^(NdefMessage *ndef) {
+    [flomioSDK readNdef:deviceUuid success:^(NdefMessage *ndef) {
         for(NdefRecord *record in ndef.ndefRecords) {
             NSLog(@"Record Payload: %@", record.payloadString);
         }

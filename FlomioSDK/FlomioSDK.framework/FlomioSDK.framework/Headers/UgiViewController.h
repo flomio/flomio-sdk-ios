@@ -99,19 +99,8 @@
  */
 - (void) titleViewTapped;
 
-/**
- Prototype for completion method for performSegueWithIdentifier:withConfigCallback
-
- @param tag     The tag accessed (possibly not valid if the access failed)
- @param result  Result of the operation
- */
 typedef void (^PerformSegueWithIdentifierCompletion)(UIViewController * _Nonnull vc);
 
-/**
- Perform a segue with code to initialize the new view controller
- @param identifier        Segue to invoke
- @param configCompletion  Code to run after animation is complete
- */
 - (void)performSegueWithIdentifier:(NSString * _Nonnull)identifier
                 withConfigCallback:(nonnull PerformSegueWithIdentifierCompletion)configCompletion;
 
