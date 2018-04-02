@@ -1,16 +1,16 @@
 PODS:
-  - FlomioSDK (2.3.0)
+  - FlomioSDK (2.3.3)
 
 DEPENDENCIES:
-  - FlomioSDK (from `~/Developer/flomio_mw_releases`)
+  - FlomioSDK (from `../`)
 
 EXTERNAL SOURCES:
   FlomioSDK:
-    :path: ~/Developer/flomio_mw_releases
+    :path: ../
 
 SPEC CHECKSUMS:
-  FlomioSDK: 4956737eeb81f2b9af03f455edf41e9a1708c4d4
+  FlomioSDK: 206e442112845a9526aac8bcaf0c771e05387110
 
-PODFILE CHECKSUM: e61528373c79e15dc44965f06aa2948e80a9093f
+PODFILE CHECKSUM: 74958178e21341835998ecd92e9dbad9f7a30eef
 
 COCOAPODS: 1.4.0
