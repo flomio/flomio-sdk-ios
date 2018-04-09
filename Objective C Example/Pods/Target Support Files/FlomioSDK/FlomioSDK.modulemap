@@ -1,0 +1,6 @@
+framework module FlomioSDK {
+  umbrella header "FlomioSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

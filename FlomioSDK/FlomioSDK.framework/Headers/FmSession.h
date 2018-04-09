@@ -70,7 +70,7 @@
 @property (nonatomic, strong) CBPeripheral *peripheral;
 @property (nonatomic, strong) FmTagInventory *tagInventory;
 @property (nonatomic, strong) NSString *currentAtr;
-@property (nonatomic) CardType currentCardType;
+@property (nonatomic) TagType currentTagType;
 
 //tagUuid createTag
 //foundNewTag:tag

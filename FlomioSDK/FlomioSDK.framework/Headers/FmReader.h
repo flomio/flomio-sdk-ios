@@ -27,7 +27,7 @@
 
 - (void)didAddTagToUuidInventory:(NSString *)uuid;
 - (void)didFindExistingTag:(NSString *)uuid;
-- (void)didGetAtr:(NSString *)atr withCardType:(CardType)cardType;
+- (void)didGetAtr:(NSString *)atr withTagType:(TagType)tagType;
 - (void)didGetBatteryLevel:(NSInteger)batteryLevel;
 - (void)didGetCommunicationStatus:(CommunicationStatus)communicationStatus;
 - (void)didChangeCardStatus:(CardStatus)status fromDevice:(NSString *)device;

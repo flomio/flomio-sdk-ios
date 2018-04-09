@@ -31,12 +31,12 @@
     defaultConfiguration.powerOperation = kAutoPollingControl;
     defaultConfiguration.transmitPower = kHighPower;
     defaultConfiguration.allowMultiConnect = @NO;
-    flomioSDK = [[FmSessionManager flomioMW] initWithConfiguration:defaultConfiguration];
+    flomioSDK = [[FmSessionManager flomioSDK] initWithConfiguration:defaultConfiguration];
     flomioSDK.delegate = self;
 }
 
 - (void)didFindTag:(FmTag *)tag fromDevice:(NSString *)deviceUuid{
-    [flomioSDK readNdef:deviceUuid success:^(NdefMessage *ndef) {
+    [tag readNdef:^(NdefMessage *ndef) {
         for(NdefRecord *record in ndef.ndefRecords) {
             NSLog(@"Record Payload: %@", record.payloadString);
         }

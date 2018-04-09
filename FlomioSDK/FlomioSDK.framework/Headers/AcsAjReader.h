@@ -31,7 +31,7 @@ typedef NS_ENUM(NSInteger, DispatchTimerCommands) {
     BOOL isRequestingDataBlocks;
     NSMutableData *dataBlock;
     int currentPosition;
-    CardType cardType;
+    TagType tagType;
     CardStatus cardStatus;
     CardStatus previousCardStatus;
 }

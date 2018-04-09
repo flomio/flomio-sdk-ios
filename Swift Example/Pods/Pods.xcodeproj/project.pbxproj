@@ -3,397 +3,126 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		015B7E569E198772C2A5D3F7C96D2023 /* UgiTagReadHistoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = B735D5647558B8828FFB5D2A415700ED /* UgiTagReadHistoryView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0271643F1AD63866DD6825BCEE2DBD6B /* Analytics.h in Headers */ = {isa = PBXBuildFile; fileRef = EB49CB614A68C2BDE43FCD1C8D69B2B7 /* Analytics.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		08478E964EABEFD419185EFBCA2B9B5C /* ACRDukptTrackData.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F53E0DCAC57079A73D5825C430890C5 /* ACRDukptTrackData.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0A6BDDEECCBEAA14ED142074DA3F7E01 /* Ugi_firmwareUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = E6FD10AFB557ECA3413611AE088B6163 /* Ugi_firmwareUpdate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		10C0B80C96485D4128D946823C88501C /* FmConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 42AAE8B7D10305143AB10303E486D36D /* FmConfiguration.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		13EB72BB275C8CF83B0A9FF0BE0C1E5A /* ABTBluetoothReader.h in Headers */ = {isa = PBXBuildFile; fileRef = BF32D3AA1B81DFA3993F72C1F223347B /* ABTBluetoothReader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1A80F4F7BF5CA4FF3DE2EDF08737AA76 /* FloJackConnected150x150.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D744E2EB28E273B522114E2A29AC1DA /* FloJackConnected150x150.png */; };
-		1CAA0349E4D02270E39E437370CD7D47 /* C++Runtime.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7A190F60F4E60866D6F1332A714F63F0 /* C++Runtime.mm */; };
-		1E13F89D1E5AC9A3BA26971D53FE26DF /* FeitianBtReader.h in Headers */ = {isa = PBXBuildFile; fileRef = BFD47556D9302A29ACBE5339A6CDB333 /* FeitianBtReader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1F6C03E43C0F5D89A910CE8D4FB93931 /* UgiDefaultConfigurationUi.h in Headers */ = {isa = PBXBuildFile; fileRef = 014C7E7090F79D66E00AA363CBCBB54B /* UgiDefaultConfigurationUi.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		26B546D05A75254920306179A46AD7AE /* FmTag.h in Headers */ = {isa = PBXBuildFile; fileRef = 3406C4A7C984715A85F20F054C46B897 /* FmTag.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2AFED86554FB21B79B466A7AD3FF0482 /* ABTBluetoothReaderManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EE7F3A1CDEFE0D9779637436120ACED5 /* ABTBluetoothReaderManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2C738DA5CE759361CBE313DE940835D3 /* winscard.h in Headers */ = {isa = PBXBuildFile; fileRef = 08CA4D7B91D3DB871E27F0CABCF4F209 /* winscard.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2DF9CB1D4D4ECC394071AEB50EE9294C /* FmSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E3DA642B45213EC9F99B4661F649037C /* FmSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		303474A149A697FC6A2F46575DF7D90A /* FmBluetoothConnectionsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A56F4C8A8F4259CDC4458E3B04C1B361 /* FmBluetoothConnectionsManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3284831408C0CA638EF3AE4A75D625C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		3566547E233E9FA937EE2D5B162C0D0E /* ACRAesTrackData.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FAD8694B6F784C5E862679260371E2B /* ACRAesTrackData.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3898158CF8B5103B526A4E482E95A2AE /* ABTAcr3901us1Reader.h in Headers */ = {isa = PBXBuildFile; fileRef = C2F7497F12E2F0981AF907C8E53D4932 /* ABTAcr3901us1Reader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		471DFC3EC747DC3A7F0675CE886B2A19 /* UgiUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 405E3BA7911CD3A56C0C9A3D3ED22FAA /* UgiUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		490ED7529AF4AF8F56B7131FCF99240B /* FmErrorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D12F7DA70AEDD27B90347ED8A9C4782B /* FmErrorManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4D710ACF35909B1939006D30F4949127 /* UgiStatusImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F94E0DBAC24347A669AD87DB972C924E /* UgiStatusImageView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4E30ABD387CBF2A5EDBB0513E9D5C580 /* FTaR530.h in Headers */ = {isa = PBXBuildFile; fileRef = 9401B3016633082A6AA4000D8E91A644 /* FTaR530.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4E5C9E4E3FEFD794AEF31DD6AF307206 /* NdefRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E0BFD469AC52FC6694382B2D814D5CF /* NdefRecord.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4F65EDEDB4CF9610861569AFC84000F4 /* AcsAjReader.h in Headers */ = {isa = PBXBuildFile; fileRef = C7340EAF882AB2DF7CD1A467CCCE47D9 /* AcsAjReader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5258688B0925D8E3E2ADD4907A8F0546 /* ACRStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 99B8437F918D0832A4BF61DC3D5A75C8 /* ACRStatus.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5B8AD8CBA5C54F3D47A2BAF4EBB44C04 /* ACRAudioJackReader.h in Headers */ = {isa = PBXBuildFile; fileRef = DB96DE19E930732229A4BBDD4937764B /* ACRAudioJackReader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6145B281E6FDAD8DAA653708C464B7EC /* FTType.h in Headers */ = {isa = PBXBuildFile; fileRef = 63859A7868D1280396F19C642B09F6FE /* FTType.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		667480DBE3D7CBA7AF5A58D9827D54DB /* FeitianAjReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 23A2E80CA79CEA2881F53BC6924B97CA /* FeitianAjReader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		69B62ADD7960B0A1CA2A0C7FE8CA6069 /* ABTError.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D53838DD6B5715D51F204DC8194EF0F /* ABTError.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6B3E897770B5084DF934622C5767C341 /* uGrokitAjReader.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2C5DDC3DBCEF144F46D85F89D1CFD4 /* uGrokitAjReader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6D49F2F36567F9EA604FC0CBA2537C44 /* UgiInventoryDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BABE638D5E8AD6B65782E0CCC7D3A05 /* UgiInventoryDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6E66E27AF91D809C9478CA1CC6E6FBE1 /* ACRResult.h in Headers */ = {isa = PBXBuildFile; fileRef = E453EDF6C6C5D1DE2BEF3A39F4FC4352 /* ACRResult.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6E7A898F62FCC20C6302D337C3BE601E /* UgiConfigurationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E0D3762D29B345EDD2C03076F9A1CE /* UgiConfigurationDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		703DD3CA5871129912D7E06D70E6CBCF /* FlomioBtReader.h in Headers */ = {isa = PBXBuildFile; fileRef = DF0FB4328E98028B67CE7B08A27F8C49 /* FlomioBtReader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7131CAA72129999D016E56AF66C45287 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7398896D6CBAE025F49893D84AB98D58 /* FmCustomTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = BE048EA7AFD4375A7E9E8F095AFDED21 /* FmCustomTypes.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		755853DB116660C009028A8A973AC4F4 /* FmNdefManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EF096B3C7E7E7EA6AC372CCBF79F3776 /* FmNdefManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		758D1B752D1121FDDCDB3906777151F0 /* TLVParser.h in Headers */ = {isa = PBXBuildFile; fileRef = E0B1AC8E759C60BD74D1B2BD1AABB968 /* TLVParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		76E7C664D65800CC31C251ABC7339435 /* Ugi.h in Headers */ = {isa = PBXBuildFile; fileRef = 2163B513537B502F8BC32F928EB593A0 /* Ugi.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7A57D91DCD2E1C06D2D61A51CF45347E /* UgiRfMicron.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AAEC8CEEDCCDD1F3E00065729821057 /* UgiRfMicron.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7E67E5E00662470B32FC941A7BB5A34F /* ACRTrack2Data.h in Headers */ = {isa = PBXBuildFile; fileRef = F0BCC064F70B3ACCC84E15238463349C /* ACRTrack2Data.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7F36FD2A2B90816536E0DC0AFDB5A3ED /* Ugi_antennaTuning.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E4ADEA49EAFE222121945F828B21786 /* Ugi_antennaTuning.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8341F38FC4F37592DE0DA83B8FF06752 /* ACRTrackData.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F12BD0B82D87300961E6D493E23915F /* ACRTrackData.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		84F02E067C7EF4AD2B9A29127817BEBA /* FlomioComm.h in Headers */ = {isa = PBXBuildFile; fileRef = 64F064433B8FA70479A1CCFD04AFC302 /* FlomioComm.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8527DCD396D71FEFD97C84DD515814DE /* UgiButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 504647453C92D8DF31D5A1D38D18B68D /* UgiButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		86EF747E3E98F9E3EF1A82B14CC0FD3D /* FmTagInventory.h in Headers */ = {isa = PBXBuildFile; fileRef = 25C84FD525F6388873C626056CD0A103 /* FmTagInventory.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		910413F325D6BFBF5C7B9472B4026C86 /* Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F605CA4CD5B28DB96FDFCC899B4F24 /* Utilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		94CBE1C8859CDBCCD46751A853D466FC /* UgiFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 352254BBF24F170A35F42865F392DF89 /* UgiFooterView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9999E0C5C3BF98B5AE9E74CEF7615DE2 /* UgiSwiftBridgingHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 616FBCEAC7D4557E9FA697354A7BBA08 /* UgiSwiftBridgingHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9A1FF9ADB40D6E6B9F01478CC69DEB5A /* UgiRfidConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = C3E7873237ED5F1131A086F4950D5CE4 /* UgiRfidConfiguration.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9B2E7390631183906EEC793B38EBDC40 /* Pods-FlomioSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C19D95F65C5BF20B8CCB82E83E7516A /* Pods-FlomioSDK_Example-dummy.m */; };
-		9F2305AE61CC320A9CC1B435A4BF68D7 /* wintypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DD14C3342BF297D07655A922C858949 /* wintypes.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A0AA21C2BB99FDA14B157B5342F5FF0B /* ACRTrack1Data.h in Headers */ = {isa = PBXBuildFile; fileRef = 40875AAC18F6A4F0F318EC5793EC4E6A /* ACRTrack1Data.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A3097EA2C1408A2861F788C7272B9320 /* FlomioSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF8929433F06CA8AC2E58D17193B552 /* FlomioSDK-dummy.m */; };
-		A397188C2315264E745476562A3A9564 /* UgiTagReadState.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D2A35D3CF13C917F6E2F5AC381ECAAA /* UgiTagReadState.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A40A38B367638E2D4F18D2FADCD806E3 /* utils.h in Headers */ = {isa = PBXBuildFile; fileRef = B2702E0A76F21090CF7B3422D60D2EA1 /* utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A48E6AE11EB94722CF7B720E41657F3B /* UgiJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 135F4C8643F91FF5094BCCB0B3523198 /* UgiJson.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A959510E0614B966053C90B823DA7386 /* UgiEpc.h in Headers */ = {isa = PBXBuildFile; fileRef = 2024938315931A0F0202FFE181EDBBDD /* UgiEpc.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B2D18B45EC3B93B503129EBCBD299290 /* FlomioSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 9849B00BEB1719E870FDE56B8A4050A6 /* FlomioSDK.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B69DF210B5A2EEBD6A9D4AA5A38034A6 /* UgiFarsens.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ACADD529BDE169B419E31DD1C7C18E4 /* UgiFarsens.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B72A4AC254B675C40AC63FBDBD06567B /* UgiViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CFFBF0A9F61ACB780F4B6E5F191F6690 /* UgiViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BD41C9EF8A5041B6AA1D7575726CB26D /* ACRDukptReceiver.h in Headers */ = {isa = PBXBuildFile; fileRef = 119AAD4C3CEF1DC747233B38F2491FA7 /* ACRDukptReceiver.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C19AFFD152241D81E57D76F9AE2E9F58 /* ScanSound.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7BA4090D00C758342177A1FB4EEEB13F /* ScanSound.caf */; };
-		C7D2600B480DDC3DB0D1A1C738AE7918 /* UgiTag.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D26E501CB2BD996A0A8866377F9D50A /* UgiTag.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CD111D47BC9FD5C62BA45932620DC9B0 /* ft301u.h in Headers */ = {isa = PBXBuildFile; fileRef = 2114E0F8BB367EA8FDA1FC50DD447A8B /* ft301u.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CF8B08E797E95043D462491423233ED2 /* FJStringDisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A41383A91514314DA92C5DCCD9DFF8 /* FJStringDisplay.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D38A66CB08B99748EC44F0D4276A7226 /* ABTAcr1255uj1Reader.h in Headers */ = {isa = PBXBuildFile; fileRef = 538FD8E63D31ED3DEDFC2BC3A6F5AC8D /* ABTAcr1255uj1Reader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D6EC5071792CA10A3E1DECC93E1A724E /* FmType2Tag.h in Headers */ = {isa = PBXBuildFile; fileRef = 144D6F04CFA774C1C9F32E000B7F1664 /* FmType2Tag.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D6F1D3300AC09B328537D66B77B30DAE /* NdefMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F137B71D393000BD2DFB99BEB5C77C /* NdefMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D725A841C8A5B814D310AFA63D90076E /* AcsBtReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 17F28F59C9E0F851875697BD4319DB99 /* AcsBtReader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D917B9F52146673B5CC3F118B527DAFA /* FmAudioJackConnectionsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8948AC1E627CD8906D738394B1F8ACB3 /* FmAudioJackConnectionsManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D93113DD68C126D59E935114726CDE7B /* FmConnectionsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E8FC77D1863C7D041B72753EE8837D66 /* FmConnectionsManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DAEC3F69ED41C93DA78F9AA8074A631C /* AudioJack.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D179A4DF1194D27696083BA3B0F6752 /* AudioJack.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DCC903AC776E8687EFF0ED620DDB8FAB /* ReaderInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A609FE6F76B07FBFAD2F5D8D376EA14 /* ReaderInterface.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DF50E621C5F68D931A96F63EA18668ED /* AudioJackErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 005FFD7E7EA9E71A57FF9F3547EEAB22 /* AudioJackErrors.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DFE7B46F195996A5D67A0D8765194221 /* ACRCRC16.h in Headers */ = {isa = PBXBuildFile; fileRef = 31843E69B859E60D02C85AB0BA6436D0 /* ACRCRC16.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E19AD5A0F97E9E07FAC522962DA36880 /* DUKPT.h in Headers */ = {isa = PBXBuildFile; fileRef = 80D6588E0506ECC44C64D9CAA8C053F4 /* DUKPT.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E42388FBE2510ED4B39C174B454C0780 /* UgiTagCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B4BB0CABA4C2925D29403BD5436801F /* UgiTagCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E9009DA4624331F52AEB81B6B017254E /* FmType4Tag.h in Headers */ = {isa = PBXBuildFile; fileRef = 209661948EF748DCB25DE3F89ECA6828 /* FmType4Tag.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		ECDB2AE86BF5A2FD92DAC7B81BB164AD /* FloJackDisconnected150x150.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EB588B5685745DB6C669A94D039C371 /* FloJackDisconnected150x150.png */; };
-		F122E02061A1600272A91067A4B9BD35 /* FmReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CB500339CF4A47B88D38892D450E603 /* FmReader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F3E6209C5B0644585481EC28379253C6 /* UgiTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EAA21267BBB32C9C457B17F4B773703 /* UgiTitleView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F5C04066FDEB86B761D185BF26B00887 /* UgiUiUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C42A3B256510E4BA7FFB2D0CED3D785 /* UgiUiUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F6C7DBF556A27CBDA721BFFCA9A41027 /* FmSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AD9C2827D5BCBEA6CFC085908C74949 /* FmSession.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FDB9FC8A56C50BAC8AEB3289C7AF8BC6 /* UgiInventory.h in Headers */ = {isa = PBXBuildFile; fileRef = 16BF7B15E9D709AAE61A714F7BA5FC3F /* UgiInventory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		025CF352A9833B0E58BBB75085291AEF /* FloJackDisconnected150x150.png in Resources */ = {isa = PBXBuildFile; fileRef = 5425F35022FA271576C343E2D674390A /* FloJackDisconnected150x150.png */; };
+		15337760014336CA43FBE4A5360A62DF /* ScanSound.caf in Resources */ = {isa = PBXBuildFile; fileRef = 94B4211BDE6B2679CD2A9CD62D737195 /* ScanSound.caf */; };
+		917BACF8DF75F1E598DBFD34743D6F75 /* Pods-FlomioSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19311E305982E32CC1A40CD9A6C42B64 /* Pods-FlomioSDK_Example-dummy.m */; };
+		9BB520665F974D95785FF205475175D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A855A19400E6BDA8258186F31FC3892A /* FloJackConnected150x150.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C1748258DDE9C22BC4C5007FDF447B5 /* FloJackConnected150x150.png */; };
+		E7B5D4DA9B489DC3F93D9ED700E94BEF /* Pods-FlomioSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B774E17AD2005F4E3B8E62377DEBD517 /* Pods-FlomioSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		817E15CC3C8E3B55E87A63E550642B98 /* PBXContainerItemProxy */ = {
+		21385FA62D8969CC66B7B2B15B0E8CB7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0ECD4D8E8ABC530528A85E9EDB67080C;
+			remoteGlobalIDString = 53C391E9FA21A7192DBA96D9FD93997A;
 			remoteInfo = "FlomioSDK-FlomioSDK";
-		};
-		8BFC2B643583D7315A7F3EA7ACCA27E0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AFD9F8F515F95E6663D89C468B02812D;
-			remoteInfo = FlomioSDK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		005FFD7E7EA9E71A57FF9F3547EEAB22 /* AudioJackErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AudioJackErrors.h; path = FlomioSDK/FlomioSDK.framework/Headers/AudioJackErrors.h; sourceTree = "<group>"; };
-		014C7E7090F79D66E00AA363CBCBB54B /* UgiDefaultConfigurationUi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UgiDefaultConfigurationUi.h; path = FlomioSDK/FlomioSDK.framework/Headers/UgiDefaultConfigurationUi.h; sourceTree = "<group>"; };
-		08CA4D7B91D3DB871E27F0CABCF4F209 /* winscard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = winscard.h; path = FlomioSDK/FlomioSDK.framework/Headers/winscard.h; sourceTree = "<group>"; };
-		0AAEC8CEEDCCDD1F3E00065729821057 /* UgiRfMicron.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UgiRfMicron.h; path = FlomioSDK/FlomioSDK.framework/Headers/UgiRfMicron.h; sourceTree = "<group>"; };
-		0ACADD529BDE169B419E31DD1C7C18E4 /* UgiFarsens.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UgiFarsens.h; path = FlomioSDK/FlomioSDK.framework/Headers/UgiFarsens.h; sourceTree = "<group>"; };
-		0C42A3B256510E4BA7FFB2D0CED3D785 /* UgiUiUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UgiUiUtil.h; path = FlomioSDK/FlomioSDK.framework/Headers/UgiUiUtil.h; sourceTree = "<group>"; };
-		0F12BD0B82D87300961E6D493E23915F /* ACRTrackData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACRTrackData.h; path = FlomioSDK/FlomioSDK.framework/Headers/ACRTrackData.h; sourceTree = "<group>"; };
-		119AAD4C3CEF1DC747233B38F2491FA7 /* ACRDukptReceiver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACRDukptReceiver.h; path = FlomioSDK/FlomioSDK.framework/Headers/ACRDukptReceiver.h; sourceTree = "<group>"; };
-		135F4C8643F91FF5094BCCB0B3523198 /* UgiJson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UgiJson.h; path = FlomioSDK/FlomioSDK.framework/Headers/UgiJson.h; sourceTree = "<group>"; };
-		144D6F04CFA774C1C9F32E000B7F1664 /* FmType2Tag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FmType2Tag.h; path = FlomioSDK/FlomioSDK.framework/Headers/FmType2Tag.h; sourceTree = "<group>"; };
-		16BF7B15E9D709AAE61A714F7BA5FC3F /* UgiInventory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UgiInventory.h; path = FlomioSDK/FlomioSDK.framework/Headers/UgiInventory.h; sourceTree = "<group>"; };
-		17F28F59C9E0F851875697BD4319DB99 /* AcsBtReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AcsBtReader.h; path = FlomioSDK/FlomioSDK.framework/Headers/AcsBtReader.h; sourceTree = "<group>"; };
-		1D26E501CB2BD996A0A8866377F9D50A /* UgiTag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UgiTag.h; path = FlomioSDK/FlomioSDK.framework/Headers/UgiTag.h; sourceTree = "<group>"; };
-		1D53838DD6B5715D51F204DC8194EF0F /* ABTError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABTError.h; path = FlomioSDK/FlomioSDK.framework/Headers/ABTError.h; sourceTree = "<group>"; };
-		1EB588B5685745DB6C669A94D039C371 /* FloJackDisconnected150x150.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = FloJackDisconnected150x150.png; path = FlomioSDK/Assets/FloJackDisconnected150x150.png; sourceTree = "<group>"; };
-		2024938315931A0F0202FFE181EDBBDD /* UgiEpc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UgiEpc.h; path = FlomioSDK/FlomioSDK.framework/Headers/UgiEpc.h; sourceTree = "<group>"; };
-		209661948EF748DCB25DE3F89ECA6828 /* FmType4Tag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FmType4Tag.h; path = FlomioSDK/FlomioSDK.framework/Headers/FmType4Tag.h; sourceTree = "<group>"; };
-		2114E0F8BB367EA8FDA1FC50DD447A8B /* ft301u.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ft301u.h; path = FlomioSDK/FlomioSDK.framework/Headers/ft301u.h; sourceTree = "<group>"; };
-		2163B513537B502F8BC32F928EB593A0 /* Ugi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Ugi.h; path = FlomioSDK/FlomioSDK.framework/Headers/Ugi.h; sourceTree = "<group>"; };
-		23A2E80CA79CEA2881F53BC6924B97CA /* FeitianAjReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FeitianAjReader.h; path = FlomioSDK/FlomioSDK.framework/Headers/FeitianAjReader.h; sourceTree = "<group>"; };
-		24F605CA4CD5B28DB96FDFCC899B4F24 /* Utilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Utilities.h; path = FlomioSDK/FlomioSDK.framework/Headers/Utilities.h; sourceTree = "<group>"; };
-		259C6BF7FF29CC164497249B99324631 /* FlomioSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlomioSDK-prefix.pch"; sourceTree = "<group>"; };
-		25C84FD525F6388873C626056CD0A103 /* FmTagInventory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FmTagInventory.h; path = FlomioSDK/FlomioSDK.framework/Headers/FmTagInventory.h; sourceTree = "<group>"; };
-		2D179A4DF1194D27696083BA3B0F6752 /* AudioJack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AudioJack.h; path = FlomioSDK/FlomioSDK.framework/Headers/AudioJack.h; sourceTree = "<group>"; };
-		2EAA21267BBB32C9C457B17F4B773703 /* UgiTitleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UgiTitleView.h; path = FlomioSDK/FlomioSDK.framework/Headers/UgiTitleView.h; sourceTree = "<group>"; };
-		31843E69B859E60D02C85AB0BA6436D0 /* ACRCRC16.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACRCRC16.h; path = FlomioSDK/FlomioSDK.framework/Headers/ACRCRC16.h; sourceTree = "<group>"; };
-		3406C4A7C984715A85F20F054C46B897 /* FmTag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FmTag.h; path = FlomioSDK/FlomioSDK.framework/Headers/FmTag.h; sourceTree = "<group>"; };
-		352254BBF24F170A35F42865F392DF89 /* UgiFooterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UgiFooterView.h; path = FlomioSDK/FlomioSDK.framework/Headers/UgiFooterView.h; sourceTree = "<group>"; };
-		3AD9C2827D5BCBEA6CFC085908C74949 /* FmSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FmSession.h; path = FlomioSDK/FlomioSDK.framework/Headers/FmSession.h; sourceTree = "<group>"; };
-		3BB57D6868F32ED7E6B09E412974D270 /* Pods-FlomioSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlomioSDK_Example-resources.sh"; sourceTree = "<group>"; };
-		3E0BFD469AC52FC6694382B2D814D5CF /* NdefRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NdefRecord.h; path = FlomioSDK/FlomioSDK.framework/Headers/NdefRecord.h; sourceTree = "<group>"; };
-		3EDDB29AF59465AB77F7E6CA9E31323D /* FlomioSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FlomioSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3F53E0DCAC57079A73D5825C430890C5 /* ACRDukptTrackData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACRDukptTrackData.h; path = FlomioSDK/FlomioSDK.framework/Headers/ACRDukptTrackData.h; sourceTree = "<group>"; };
-		3FAD8694B6F784C5E862679260371E2B /* ACRAesTrackData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACRAesTrackData.h; path = FlomioSDK/FlomioSDK.framework/Headers/ACRAesTrackData.h; sourceTree = "<group>"; };
-		405E3BA7911CD3A56C0C9A3D3ED22FAA /* UgiUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UgiUtil.h; path = FlomioSDK/FlomioSDK.framework/Headers/UgiUtil.h; sourceTree = "<group>"; };
-		40875AAC18F6A4F0F318EC5793EC4E6A /* ACRTrack1Data.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACRTrack1Data.h; path = FlomioSDK/FlomioSDK.framework/Headers/ACRTrack1Data.h; sourceTree = "<group>"; };
-		42AAE8B7D10305143AB10303E486D36D /* FmConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FmConfiguration.h; path = FlomioSDK/FlomioSDK.framework/Headers/FmConfiguration.h; sourceTree = "<group>"; };
-		4865BFE1636EF03E1A474A9298E315A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		4CB500339CF4A47B88D38892D450E603 /* FmReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FmReader.h; path = FlomioSDK/FlomioSDK.framework/Headers/FmReader.h; sourceTree = "<group>"; };
-		4DD14C3342BF297D07655A922C858949 /* wintypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wintypes.h; path = FlomioSDK/FlomioSDK.framework/Headers/wintypes.h; sourceTree = "<group>"; };
-		504647453C92D8DF31D5A1D38D18B68D /* UgiButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UgiButton.h; path = FlomioSDK/FlomioSDK.framework/Headers/UgiButton.h; sourceTree = "<group>"; };
-		538FD8E63D31ED3DEDFC2BC3A6F5AC8D /* ABTAcr1255uj1Reader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABTAcr1255uj1Reader.h; path = FlomioSDK/FlomioSDK.framework/Headers/ABTAcr1255uj1Reader.h; sourceTree = "<group>"; };
-		5AF8929433F06CA8AC2E58D17193B552 /* FlomioSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlomioSDK-dummy.m"; sourceTree = "<group>"; };
-		616FBCEAC7D4557E9FA697354A7BBA08 /* UgiSwiftBridgingHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UgiSwiftBridgingHeader.h; path = FlomioSDK/FlomioSDK.framework/Headers/UgiSwiftBridgingHeader.h; sourceTree = "<group>"; };
-		63859A7868D1280396F19C642B09F6FE /* FTType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTType.h; path = FlomioSDK/FlomioSDK.framework/Headers/FTType.h; sourceTree = "<group>"; };
-		64F064433B8FA70479A1CCFD04AFC302 /* FlomioComm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlomioComm.h; path = FlomioSDK/FlomioSDK.framework/Headers/FlomioComm.h; sourceTree = "<group>"; };
+		0BD1446FC4FC30DAB14336747707BC34 /* Pods-FlomioSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlomioSDK_Example.modulemap"; sourceTree = "<group>"; };
+		173816EE026614A71D6A76DAA7388779 /* FlomioSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FlomioSDK.framework; path = FlomioSDK/FlomioSDK.framework; sourceTree = "<group>"; };
+		19311E305982E32CC1A40CD9A6C42B64 /* Pods-FlomioSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlomioSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		4B7FBC64BBCEA0BFC9ABB73BE47C238D /* Pods-FlomioSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlomioSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5425F35022FA271576C343E2D674390A /* FloJackDisconnected150x150.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = FloJackDisconnected150x150.png; path = FlomioSDK/Assets/FloJackDisconnected150x150.png; sourceTree = "<group>"; };
+		64B5E29F0E45055174E774FCDCD7FAE6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6BABE638D5E8AD6B65782E0CCC7D3A05 /* UgiInventoryDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UgiInventoryDelegate.h; path = FlomioSDK/FlomioSDK.framework/Headers/UgiInventoryDelegate.h; sourceTree = "<group>"; };
-		78A41383A91514314DA92C5DCCD9DFF8 /* FJStringDisplay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FJStringDisplay.h; path = FlomioSDK/FlomioSDK.framework/Headers/FJStringDisplay.h; sourceTree = "<group>"; };
-		793DBD6F07963CBAD3DC5105F8DDD1D3 /* Pods-FlomioSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlomioSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7A190F60F4E60866D6F1332A714F63F0 /* C++Runtime.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "C++Runtime.mm"; path = "FlomioSDK/FlomioSDK.framework/Headers/C++Runtime.mm"; sourceTree = "<group>"; };
-		7BA4090D00C758342177A1FB4EEEB13F /* ScanSound.caf */ = {isa = PBXFileReference; includeInIndex = 1; name = ScanSound.caf; path = FlomioSDK/Assets/ScanSound.caf; sourceTree = "<group>"; };
-		7D744E2EB28E273B522114E2A29AC1DA /* FloJackConnected150x150.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = FloJackConnected150x150.png; path = FlomioSDK/Assets/FloJackConnected150x150.png; sourceTree = "<group>"; };
-		7D9019AA531EFEE2D1D67278070A2BD7 /* libPods-FlomioSDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FlomioSDK_Example.a"; path = "libPods-FlomioSDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		80D6588E0506ECC44C64D9CAA8C053F4 /* DUKPT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DUKPT.h; path = FlomioSDK/FlomioSDK.framework/Headers/DUKPT.h; sourceTree = "<group>"; };
-		85175F33D6A29E11AA8C2A352A27B0B0 /* Pods-FlomioSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlomioSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8948AC1E627CD8906D738394B1F8ACB3 /* FmAudioJackConnectionsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FmAudioJackConnectionsManager.h; path = FlomioSDK/FlomioSDK.framework/Headers/FmAudioJackConnectionsManager.h; sourceTree = "<group>"; };
-		8D2A35D3CF13C917F6E2F5AC381ECAAA /* UgiTagReadState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UgiTagReadState.h; path = FlomioSDK/FlomioSDK.framework/Headers/UgiTagReadState.h; sourceTree = "<group>"; };
-		8D499475718E5412548FB9FE2F31F259 /* libFlomioSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFlomioSDK.a; path = libFlomioSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DFECBE63FD6E5A530FFA50562C9745A /* Pods-FlomioSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlomioSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8E4ADEA49EAFE222121945F828B21786 /* Ugi_antennaTuning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Ugi_antennaTuning.h; path = FlomioSDK/FlomioSDK.framework/Headers/Ugi_antennaTuning.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93A54A16DDD1A0AB011AA98655CF1EAC /* ResourceBundle-FlomioSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FlomioSDK-Info.plist"; sourceTree = "<group>"; };
-		9401B3016633082A6AA4000D8E91A644 /* FTaR530.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTaR530.h; path = FlomioSDK/FlomioSDK.framework/Headers/FTaR530.h; sourceTree = "<group>"; };
-		9849B00BEB1719E870FDE56B8A4050A6 /* FlomioSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlomioSDK.h; path = FlomioSDK/FlomioSDK.framework/Headers/FlomioSDK.h; sourceTree = "<group>"; };
-		99B8437F918D0832A4BF61DC3D5A75C8 /* ACRStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACRStatus.h; path = FlomioSDK/FlomioSDK.framework/Headers/ACRStatus.h; sourceTree = "<group>"; };
-		9A609FE6F76B07FBFAD2F5D8D376EA14 /* ReaderInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReaderInterface.h; path = FlomioSDK/FlomioSDK.framework/Headers/ReaderInterface.h; sourceTree = "<group>"; };
-		9AE1B8C79220DA878743301A625C1FB4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		9B4BB0CABA4C2925D29403BD5436801F /* UgiTagCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UgiTagCell.h; path = FlomioSDK/FlomioSDK.framework/Headers/UgiTagCell.h; sourceTree = "<group>"; };
-		9C19D95F65C5BF20B8CCB82E83E7516A /* Pods-FlomioSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlomioSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		A0F137B71D393000BD2DFB99BEB5C77C /* NdefMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NdefMessage.h; path = FlomioSDK/FlomioSDK.framework/Headers/NdefMessage.h; sourceTree = "<group>"; };
-		A56F4C8A8F4259CDC4458E3B04C1B361 /* FmBluetoothConnectionsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FmBluetoothConnectionsManager.h; path = FlomioSDK/FlomioSDK.framework/Headers/FmBluetoothConnectionsManager.h; sourceTree = "<group>"; };
-		AA2C5DDC3DBCEF144F46D85F89D1CFD4 /* uGrokitAjReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uGrokitAjReader.h; path = FlomioSDK/FlomioSDK.framework/Headers/uGrokitAjReader.h; sourceTree = "<group>"; };
-		AE536A3478EDD9C2D7A08ED11CAD1461 /* FlomioSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FlomioSDK.framework; path = FlomioSDK/FlomioSDK.framework; sourceTree = "<group>"; };
-		B2702E0A76F21090CF7B3422D60D2EA1 /* utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utils.h; path = FlomioSDK/FlomioSDK.framework/Headers/utils.h; sourceTree = "<group>"; };
-		B735D5647558B8828FFB5D2A415700ED /* UgiTagReadHistoryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UgiTagReadHistoryView.h; path = FlomioSDK/FlomioSDK.framework/Headers/UgiTagReadHistoryView.h; sourceTree = "<group>"; };
-		B8EF0B39A56A91EE9A8D065512A40BB5 /* Pods-FlomioSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlomioSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BE048EA7AFD4375A7E9E8F095AFDED21 /* FmCustomTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FmCustomTypes.h; path = FlomioSDK/FlomioSDK.framework/Headers/FmCustomTypes.h; sourceTree = "<group>"; };
-		BF32D3AA1B81DFA3993F72C1F223347B /* ABTBluetoothReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABTBluetoothReader.h; path = FlomioSDK/FlomioSDK.framework/Headers/ABTBluetoothReader.h; sourceTree = "<group>"; };
-		BFD47556D9302A29ACBE5339A6CDB333 /* FeitianBtReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FeitianBtReader.h; path = FlomioSDK/FlomioSDK.framework/Headers/FeitianBtReader.h; sourceTree = "<group>"; };
-		C2F7497F12E2F0981AF907C8E53D4932 /* ABTAcr3901us1Reader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABTAcr3901us1Reader.h; path = FlomioSDK/FlomioSDK.framework/Headers/ABTAcr3901us1Reader.h; sourceTree = "<group>"; };
-		C3E7873237ED5F1131A086F4950D5CE4 /* UgiRfidConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UgiRfidConfiguration.h; path = FlomioSDK/FlomioSDK.framework/Headers/UgiRfidConfiguration.h; sourceTree = "<group>"; };
-		C7340EAF882AB2DF7CD1A467CCCE47D9 /* AcsAjReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AcsAjReader.h; path = FlomioSDK/FlomioSDK.framework/Headers/AcsAjReader.h; sourceTree = "<group>"; };
-		CFFBF0A9F61ACB780F4B6E5F191F6690 /* UgiViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UgiViewController.h; path = FlomioSDK/FlomioSDK.framework/Headers/UgiViewController.h; sourceTree = "<group>"; };
-		D12F7DA70AEDD27B90347ED8A9C4782B /* FmErrorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FmErrorManager.h; path = FlomioSDK/FlomioSDK.framework/Headers/FmErrorManager.h; sourceTree = "<group>"; };
-		DB96DE19E930732229A4BBDD4937764B /* ACRAudioJackReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACRAudioJackReader.h; path = FlomioSDK/FlomioSDK.framework/Headers/ACRAudioJackReader.h; sourceTree = "<group>"; };
-		DF0FB4328E98028B67CE7B08A27F8C49 /* FlomioBtReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlomioBtReader.h; path = FlomioSDK/FlomioSDK.framework/Headers/FlomioBtReader.h; sourceTree = "<group>"; };
-		E0B1AC8E759C60BD74D1B2BD1AABB968 /* TLVParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLVParser.h; path = FlomioSDK/FlomioSDK.framework/Headers/TLVParser.h; sourceTree = "<group>"; };
-		E3DA642B45213EC9F99B4661F649037C /* FmSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FmSessionManager.h; path = FlomioSDK/FlomioSDK.framework/Headers/FmSessionManager.h; sourceTree = "<group>"; };
-		E453EDF6C6C5D1DE2BEF3A39F4FC4352 /* ACRResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACRResult.h; path = FlomioSDK/FlomioSDK.framework/Headers/ACRResult.h; sourceTree = "<group>"; };
-		E5FA2F2D84B6CE34FB7EF0228A19CEEF /* Pods-FlomioSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlomioSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E6FD10AFB557ECA3413611AE088B6163 /* Ugi_firmwareUpdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Ugi_firmwareUpdate.h; path = FlomioSDK/FlomioSDK.framework/Headers/Ugi_firmwareUpdate.h; sourceTree = "<group>"; };
-		E8FC77D1863C7D041B72753EE8837D66 /* FmConnectionsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FmConnectionsManager.h; path = FlomioSDK/FlomioSDK.framework/Headers/FmConnectionsManager.h; sourceTree = "<group>"; };
-		EB49CB614A68C2BDE43FCD1C8D69B2B7 /* Analytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Analytics.h; path = FlomioSDK/FlomioSDK.framework/Headers/Analytics.h; sourceTree = "<group>"; };
-		ED23FB33EF19BC0FE6F13F8AC4F408B4 /* FlomioSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FlomioSDK.bundle; path = "FlomioSDK-FlomioSDK.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE7F3A1CDEFE0D9779637436120ACED5 /* ABTBluetoothReaderManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABTBluetoothReaderManager.h; path = FlomioSDK/FlomioSDK.framework/Headers/ABTBluetoothReaderManager.h; sourceTree = "<group>"; };
-		EF096B3C7E7E7EA6AC372CCBF79F3776 /* FmNdefManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FmNdefManager.h; path = FlomioSDK/FlomioSDK.framework/Headers/FmNdefManager.h; sourceTree = "<group>"; };
-		F0BCC064F70B3ACCC84E15238463349C /* ACRTrack2Data.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACRTrack2Data.h; path = FlomioSDK/FlomioSDK.framework/Headers/ACRTrack2Data.h; sourceTree = "<group>"; };
-		F877228DDD307EF3414356ADA9957C8B /* FlomioSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlomioSDK.xcconfig; sourceTree = "<group>"; };
-		F94E0DBAC24347A669AD87DB972C924E /* UgiStatusImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UgiStatusImageView.h; path = FlomioSDK/FlomioSDK.framework/Headers/UgiStatusImageView.h; sourceTree = "<group>"; };
-		F9E0D3762D29B345EDD2C03076F9A1CE /* UgiConfigurationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UgiConfigurationDelegate.h; path = FlomioSDK/FlomioSDK.framework/Headers/UgiConfigurationDelegate.h; sourceTree = "<group>"; };
+		677BA94C6A212488A8108E8A1A10D1F8 /* FlomioSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlomioSDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B23FE5717B3662B297BD98CB9DD38E2 /* Pods-FlomioSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlomioSDK_Example-resources.sh"; sourceTree = "<group>"; };
+		7C1748258DDE9C22BC4C5007FDF447B5 /* FloJackConnected150x150.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = FloJackConnected150x150.png; path = FlomioSDK/Assets/FloJackConnected150x150.png; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94B4211BDE6B2679CD2A9CD62D737195 /* ScanSound.caf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = ScanSound.caf; path = FlomioSDK/Assets/ScanSound.caf; sourceTree = "<group>"; };
+		9BA7E2C813989C235743421E8D317B93 /* FlomioSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = FlomioSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FE2004C68F3587880EA257D6A2852DC /* Pods-FlomioSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlomioSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A68F76428A6A2E22EF16EFD463258AB1 /* Pods-FlomioSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlomioSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B44946E6A0F12FCEFE63D7D0C25728A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B774E17AD2005F4E3B8E62377DEBD517 /* Pods-FlomioSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlomioSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		B8334A11CC4E109AFB580A2B7C9510A5 /* Pods-FlomioSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlomioSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BA0956353E5242D166FAD9F3A1066D29 /* Pods-FlomioSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlomioSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BC68AFFDB5C3D90608E103A80530DF78 /* ResourceBundle-FlomioSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FlomioSDK-Info.plist"; sourceTree = "<group>"; };
+		BEB5AF76CF219389C0C2F364530D1920 /* Pods_FlomioSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlomioSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09A4F4F3FE5E6493DACB33CE84B217B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1C951C3F66287B43864A77CB6257C1B8 /* Frameworks */ = {
+		89335B638E5B89FE65951EAC107042B4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7131CAA72129999D016E56AF66C45287 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		264DF9AD176BA3C7324633B93F023782 /* Frameworks */ = {
+		DC808003550CD9220098851A67C33110 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3284831408C0CA638EF3AE4A75D625C3 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		45D59627CD7410DEADE8230BF0CB535B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				9BB520665F974D95785FF205475175D8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B5A0DEC20ED3C49D499971C8E99DC5F /* Frameworks */ = {
+		35D9D0EF36B7998CE193DFA8531C1FEB /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AE536A3478EDD9C2D7A08ED11CAD1461 /* FlomioSDK.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1E0014CAAECCD838D4BDD97FC0508485 /* FlomioSDK */ = {
-			isa = PBXGroup;
-			children = (
-				538FD8E63D31ED3DEDFC2BC3A6F5AC8D /* ABTAcr1255uj1Reader.h */,
-				C2F7497F12E2F0981AF907C8E53D4932 /* ABTAcr3901us1Reader.h */,
-				BF32D3AA1B81DFA3993F72C1F223347B /* ABTBluetoothReader.h */,
-				EE7F3A1CDEFE0D9779637436120ACED5 /* ABTBluetoothReaderManager.h */,
-				1D53838DD6B5715D51F204DC8194EF0F /* ABTError.h */,
-				3FAD8694B6F784C5E862679260371E2B /* ACRAesTrackData.h */,
-				DB96DE19E930732229A4BBDD4937764B /* ACRAudioJackReader.h */,
-				31843E69B859E60D02C85AB0BA6436D0 /* ACRCRC16.h */,
-				119AAD4C3CEF1DC747233B38F2491FA7 /* ACRDukptReceiver.h */,
-				3F53E0DCAC57079A73D5825C430890C5 /* ACRDukptTrackData.h */,
-				E453EDF6C6C5D1DE2BEF3A39F4FC4352 /* ACRResult.h */,
-				99B8437F918D0832A4BF61DC3D5A75C8 /* ACRStatus.h */,
-				40875AAC18F6A4F0F318EC5793EC4E6A /* ACRTrack1Data.h */,
-				F0BCC064F70B3ACCC84E15238463349C /* ACRTrack2Data.h */,
-				0F12BD0B82D87300961E6D493E23915F /* ACRTrackData.h */,
-				C7340EAF882AB2DF7CD1A467CCCE47D9 /* AcsAjReader.h */,
-				17F28F59C9E0F851875697BD4319DB99 /* AcsBtReader.h */,
-				EB49CB614A68C2BDE43FCD1C8D69B2B7 /* Analytics.h */,
-				2D179A4DF1194D27696083BA3B0F6752 /* AudioJack.h */,
-				005FFD7E7EA9E71A57FF9F3547EEAB22 /* AudioJackErrors.h */,
-				7A190F60F4E60866D6F1332A714F63F0 /* C++Runtime.mm */,
-				80D6588E0506ECC44C64D9CAA8C053F4 /* DUKPT.h */,
-				23A2E80CA79CEA2881F53BC6924B97CA /* FeitianAjReader.h */,
-				BFD47556D9302A29ACBE5339A6CDB333 /* FeitianBtReader.h */,
-				78A41383A91514314DA92C5DCCD9DFF8 /* FJStringDisplay.h */,
-				DF0FB4328E98028B67CE7B08A27F8C49 /* FlomioBtReader.h */,
-				64F064433B8FA70479A1CCFD04AFC302 /* FlomioComm.h */,
-				9849B00BEB1719E870FDE56B8A4050A6 /* FlomioSDK.h */,
-				8948AC1E627CD8906D738394B1F8ACB3 /* FmAudioJackConnectionsManager.h */,
-				A56F4C8A8F4259CDC4458E3B04C1B361 /* FmBluetoothConnectionsManager.h */,
-				42AAE8B7D10305143AB10303E486D36D /* FmConfiguration.h */,
-				E8FC77D1863C7D041B72753EE8837D66 /* FmConnectionsManager.h */,
-				BE048EA7AFD4375A7E9E8F095AFDED21 /* FmCustomTypes.h */,
-				D12F7DA70AEDD27B90347ED8A9C4782B /* FmErrorManager.h */,
-				EF096B3C7E7E7EA6AC372CCBF79F3776 /* FmNdefManager.h */,
-				4CB500339CF4A47B88D38892D450E603 /* FmReader.h */,
-				3AD9C2827D5BCBEA6CFC085908C74949 /* FmSession.h */,
-				E3DA642B45213EC9F99B4661F649037C /* FmSessionManager.h */,
-				3406C4A7C984715A85F20F054C46B897 /* FmTag.h */,
-				25C84FD525F6388873C626056CD0A103 /* FmTagInventory.h */,
-				144D6F04CFA774C1C9F32E000B7F1664 /* FmType2Tag.h */,
-				209661948EF748DCB25DE3F89ECA6828 /* FmType4Tag.h */,
-				2114E0F8BB367EA8FDA1FC50DD447A8B /* ft301u.h */,
-				9401B3016633082A6AA4000D8E91A644 /* FTaR530.h */,
-				63859A7868D1280396F19C642B09F6FE /* FTType.h */,
-				A0F137B71D393000BD2DFB99BEB5C77C /* NdefMessage.h */,
-				3E0BFD469AC52FC6694382B2D814D5CF /* NdefRecord.h */,
-				9A609FE6F76B07FBFAD2F5D8D376EA14 /* ReaderInterface.h */,
-				E0B1AC8E759C60BD74D1B2BD1AABB968 /* TLVParser.h */,
-				2163B513537B502F8BC32F928EB593A0 /* Ugi.h */,
-				8E4ADEA49EAFE222121945F828B21786 /* Ugi_antennaTuning.h */,
-				E6FD10AFB557ECA3413611AE088B6163 /* Ugi_firmwareUpdate.h */,
-				504647453C92D8DF31D5A1D38D18B68D /* UgiButton.h */,
-				F9E0D3762D29B345EDD2C03076F9A1CE /* UgiConfigurationDelegate.h */,
-				014C7E7090F79D66E00AA363CBCBB54B /* UgiDefaultConfigurationUi.h */,
-				2024938315931A0F0202FFE181EDBBDD /* UgiEpc.h */,
-				0ACADD529BDE169B419E31DD1C7C18E4 /* UgiFarsens.h */,
-				352254BBF24F170A35F42865F392DF89 /* UgiFooterView.h */,
-				16BF7B15E9D709AAE61A714F7BA5FC3F /* UgiInventory.h */,
-				6BABE638D5E8AD6B65782E0CCC7D3A05 /* UgiInventoryDelegate.h */,
-				135F4C8643F91FF5094BCCB0B3523198 /* UgiJson.h */,
-				C3E7873237ED5F1131A086F4950D5CE4 /* UgiRfidConfiguration.h */,
-				0AAEC8CEEDCCDD1F3E00065729821057 /* UgiRfMicron.h */,
-				F94E0DBAC24347A669AD87DB972C924E /* UgiStatusImageView.h */,
-				616FBCEAC7D4557E9FA697354A7BBA08 /* UgiSwiftBridgingHeader.h */,
-				1D26E501CB2BD996A0A8866377F9D50A /* UgiTag.h */,
-				9B4BB0CABA4C2925D29403BD5436801F /* UgiTagCell.h */,
-				B735D5647558B8828FFB5D2A415700ED /* UgiTagReadHistoryView.h */,
-				8D2A35D3CF13C917F6E2F5AC381ECAAA /* UgiTagReadState.h */,
-				2EAA21267BBB32C9C457B17F4B773703 /* UgiTitleView.h */,
-				0C42A3B256510E4BA7FFB2D0CED3D785 /* UgiUiUtil.h */,
-				405E3BA7911CD3A56C0C9A3D3ED22FAA /* UgiUtil.h */,
-				CFFBF0A9F61ACB780F4B6E5F191F6690 /* UgiViewController.h */,
-				AA2C5DDC3DBCEF144F46D85F89D1CFD4 /* uGrokitAjReader.h */,
-				24F605CA4CD5B28DB96FDFCC899B4F24 /* Utilities.h */,
-				B2702E0A76F21090CF7B3422D60D2EA1 /* utils.h */,
-				08CA4D7B91D3DB871E27F0CABCF4F209 /* winscard.h */,
-				4DD14C3342BF297D07655A922C858949 /* wintypes.h */,
-				0B5A0DEC20ED3C49D499971C8E99DC5F /* Frameworks */,
-				EF314DCF13DA0E1E01D26029D905B29B /* Pod */,
-				237394748B968DFCE4F08FBA838239F0 /* Resources */,
-				BBCEBA62AA610191762F2232558C1CD2 /* Support Files */,
-			);
-			name = FlomioSDK;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		237394748B968DFCE4F08FBA838239F0 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				7D744E2EB28E273B522114E2A29AC1DA /* FloJackConnected150x150.png */,
-				1EB588B5685745DB6C669A94D039C371 /* FloJackDisconnected150x150.png */,
-				7BA4090D00C758342177A1FB4EEEB13F /* ScanSound.caf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		647A9BDD5A42EDE104B0939F588BCFE1 /* Pods-FlomioSDK_Example */ = {
-			isa = PBXGroup;
-			children = (
-				793DBD6F07963CBAD3DC5105F8DDD1D3 /* Pods-FlomioSDK_Example-acknowledgements.markdown */,
-				8DFECBE63FD6E5A530FFA50562C9745A /* Pods-FlomioSDK_Example-acknowledgements.plist */,
-				9C19D95F65C5BF20B8CCB82E83E7516A /* Pods-FlomioSDK_Example-dummy.m */,
-				E5FA2F2D84B6CE34FB7EF0228A19CEEF /* Pods-FlomioSDK_Example-frameworks.sh */,
-				3BB57D6868F32ED7E6B09E412974D270 /* Pods-FlomioSDK_Example-resources.sh */,
-				85175F33D6A29E11AA8C2A352A27B0B0 /* Pods-FlomioSDK_Example.debug.xcconfig */,
-				B8EF0B39A56A91EE9A8D065512A40BB5 /* Pods-FlomioSDK_Example.release.xcconfig */,
-			);
-			name = "Pods-FlomioSDK_Example";
-			path = "Target Support Files/Pods-FlomioSDK_Example";
-			sourceTree = "<group>";
-		};
-		7B4133538446E5A609CFE80AC2C85D08 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				647A9BDD5A42EDE104B0939F588BCFE1 /* Pods-FlomioSDK_Example */,
+				C93E44554404B422863CE23D4A435E21 /* Pods-FlomioSDK_Example */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		47BE8F24C02B275F458EE1DE1324BF50 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC68AFFDB5C3D90608E103A80530DF78 /* ResourceBundle-FlomioSDK-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Swift Example/Pods/Target Support Files/FlomioSDK";
+			sourceTree = "<group>";
+		};
+		653E9A044DC84169441EFF0F12673ACA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				173816EE026614A71D6A76DAA7388779 /* FlomioSDK.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				E028B8B5D3A63AD880B68E0E221D9A28 /* Development Pods */,
+				F21B4444B9014446BD4F2BC9D62863BF /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				C1EFA80AD370D25A5CD44B491AAB4170 /* Products */,
-				7B4133538446E5A609CFE80AC2C85D08 /* Targets Support Files */,
+				D60CCFD46ED8CB00C7CE4DDF19C26BEF /* Products */,
+				35D9D0EF36B7998CE193DFA8531C1FEB /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		BBCEBA62AA610191762F2232558C1CD2 /* Support Files */ = {
+		92631FB72FD7A428D540E7ED71BEB04C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F877228DDD307EF3414356ADA9957C8B /* FlomioSDK.xcconfig */,
-				5AF8929433F06CA8AC2E58D17193B552 /* FlomioSDK-dummy.m */,
-				259C6BF7FF29CC164497249B99324631 /* FlomioSDK-prefix.pch */,
-				93A54A16DDD1A0AB011AA98655CF1EAC /* ResourceBundle-FlomioSDK-Info.plist */,
+				7C1748258DDE9C22BC4C5007FDF447B5 /* FloJackConnected150x150.png */,
+				5425F35022FA271576C343E2D674390A /* FloJackDisconnected150x150.png */,
+				94B4211BDE6B2679CD2A9CD62D737195 /* ScanSound.caf */,
 			);
-			name = "Support Files";
-			path = "Swift Example/Pods/Target Support Files/FlomioSDK";
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AF70E3E72A6D9D4352C8819FC4D1CE99 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9BA7E2C813989C235743421E8D317B93 /* FlomioSDK.podspec */,
+				D09A4F4F3FE5E6493DACB33CE84B217B /* LICENSE */,
+				B44946E6A0F12FCEFE63D7D0C25728A7 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -404,14 +133,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C1EFA80AD370D25A5CD44B491AAB4170 /* Products */ = {
+		C93E44554404B422863CE23D4A435E21 /* Pods-FlomioSDK_Example */ = {
 			isa = PBXGroup;
 			children = (
-				ED23FB33EF19BC0FE6F13F8AC4F408B4 /* FlomioSDK.bundle */,
-				8D499475718E5412548FB9FE2F31F259 /* libFlomioSDK.a */,
-				7D9019AA531EFEE2D1D67278070A2BD7 /* libPods-FlomioSDK_Example.a */,
+				64B5E29F0E45055174E774FCDCD7FAE6 /* Info.plist */,
+				0BD1446FC4FC30DAB14336747707BC34 /* Pods-FlomioSDK_Example.modulemap */,
+				4B7FBC64BBCEA0BFC9ABB73BE47C238D /* Pods-FlomioSDK_Example-acknowledgements.markdown */,
+				A68F76428A6A2E22EF16EFD463258AB1 /* Pods-FlomioSDK_Example-acknowledgements.plist */,
+				19311E305982E32CC1A40CD9A6C42B64 /* Pods-FlomioSDK_Example-dummy.m */,
+				B8334A11CC4E109AFB580A2B7C9510A5 /* Pods-FlomioSDK_Example-frameworks.sh */,
+				7B23FE5717B3662B297BD98CB9DD38E2 /* Pods-FlomioSDK_Example-resources.sh */,
+				B774E17AD2005F4E3B8E62377DEBD517 /* Pods-FlomioSDK_Example-umbrella.h */,
+				9FE2004C68F3587880EA257D6A2852DC /* Pods-FlomioSDK_Example.debug.xcconfig */,
+				BA0956353E5242D166FAD9F3A1066D29 /* Pods-FlomioSDK_Example.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-FlomioSDK_Example";
+			path = "Target Support Files/Pods-FlomioSDK_Example";
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -422,121 +159,56 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E028B8B5D3A63AD880B68E0E221D9A28 /* Development Pods */ = {
+		D599B1880C5D903475094710BC5C848E /* FlomioSDK */ = {
 			isa = PBXGroup;
 			children = (
-				1E0014CAAECCD838D4BDD97FC0508485 /* FlomioSDK */,
+				653E9A044DC84169441EFF0F12673ACA /* Frameworks */,
+				AF70E3E72A6D9D4352C8819FC4D1CE99 /* Pod */,
+				92631FB72FD7A428D540E7ED71BEB04C /* Resources */,
+				47BE8F24C02B275F458EE1DE1324BF50 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = FlomioSDK;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		EF314DCF13DA0E1E01D26029D905B29B /* Pod */ = {
+		D60CCFD46ED8CB00C7CE4DDF19C26BEF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3EDDB29AF59465AB77F7E6CA9E31323D /* FlomioSDK.podspec */,
-				9AE1B8C79220DA878743301A625C1FB4 /* LICENSE */,
-				4865BFE1636EF03E1A474A9298E315A5 /* README.md */,
+				677BA94C6A212488A8108E8A1A10D1F8 /* FlomioSDK.bundle */,
+				BEB5AF76CF219389C0C2F364530D1920 /* Pods_FlomioSDK_Example.framework */,
 			);
-			name = Pod;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F21B4444B9014446BD4F2BC9D62863BF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D599B1880C5D903475094710BC5C848E /* FlomioSDK */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8B7041677FDCACE57262FFD52D1B4F5E /* Headers */ = {
+		0A8CB179E7391EE9814A82FC1EB6E9C0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D38A66CB08B99748EC44F0D4276A7226 /* ABTAcr1255uj1Reader.h in Headers */,
-				3898158CF8B5103B526A4E482E95A2AE /* ABTAcr3901us1Reader.h in Headers */,
-				13EB72BB275C8CF83B0A9FF0BE0C1E5A /* ABTBluetoothReader.h in Headers */,
-				2AFED86554FB21B79B466A7AD3FF0482 /* ABTBluetoothReaderManager.h in Headers */,
-				69B62ADD7960B0A1CA2A0C7FE8CA6069 /* ABTError.h in Headers */,
-				3566547E233E9FA937EE2D5B162C0D0E /* ACRAesTrackData.h in Headers */,
-				5B8AD8CBA5C54F3D47A2BAF4EBB44C04 /* ACRAudioJackReader.h in Headers */,
-				DFE7B46F195996A5D67A0D8765194221 /* ACRCRC16.h in Headers */,
-				BD41C9EF8A5041B6AA1D7575726CB26D /* ACRDukptReceiver.h in Headers */,
-				08478E964EABEFD419185EFBCA2B9B5C /* ACRDukptTrackData.h in Headers */,
-				6E66E27AF91D809C9478CA1CC6E6FBE1 /* ACRResult.h in Headers */,
-				5258688B0925D8E3E2ADD4907A8F0546 /* ACRStatus.h in Headers */,
-				A0AA21C2BB99FDA14B157B5342F5FF0B /* ACRTrack1Data.h in Headers */,
-				7E67E5E00662470B32FC941A7BB5A34F /* ACRTrack2Data.h in Headers */,
-				8341F38FC4F37592DE0DA83B8FF06752 /* ACRTrackData.h in Headers */,
-				4F65EDEDB4CF9610861569AFC84000F4 /* AcsAjReader.h in Headers */,
-				D725A841C8A5B814D310AFA63D90076E /* AcsBtReader.h in Headers */,
-				0271643F1AD63866DD6825BCEE2DBD6B /* Analytics.h in Headers */,
-				DAEC3F69ED41C93DA78F9AA8074A631C /* AudioJack.h in Headers */,
-				DF50E621C5F68D931A96F63EA18668ED /* AudioJackErrors.h in Headers */,
-				E19AD5A0F97E9E07FAC522962DA36880 /* DUKPT.h in Headers */,
-				667480DBE3D7CBA7AF5A58D9827D54DB /* FeitianAjReader.h in Headers */,
-				1E13F89D1E5AC9A3BA26971D53FE26DF /* FeitianBtReader.h in Headers */,
-				CF8B08E797E95043D462491423233ED2 /* FJStringDisplay.h in Headers */,
-				703DD3CA5871129912D7E06D70E6CBCF /* FlomioBtReader.h in Headers */,
-				84F02E067C7EF4AD2B9A29127817BEBA /* FlomioComm.h in Headers */,
-				B2D18B45EC3B93B503129EBCBD299290 /* FlomioSDK.h in Headers */,
-				D917B9F52146673B5CC3F118B527DAFA /* FmAudioJackConnectionsManager.h in Headers */,
-				303474A149A697FC6A2F46575DF7D90A /* FmBluetoothConnectionsManager.h in Headers */,
-				10C0B80C96485D4128D946823C88501C /* FmConfiguration.h in Headers */,
-				D93113DD68C126D59E935114726CDE7B /* FmConnectionsManager.h in Headers */,
-				7398896D6CBAE025F49893D84AB98D58 /* FmCustomTypes.h in Headers */,
-				490ED7529AF4AF8F56B7131FCF99240B /* FmErrorManager.h in Headers */,
-				755853DB116660C009028A8A973AC4F4 /* FmNdefManager.h in Headers */,
-				F122E02061A1600272A91067A4B9BD35 /* FmReader.h in Headers */,
-				F6C7DBF556A27CBDA721BFFCA9A41027 /* FmSession.h in Headers */,
-				2DF9CB1D4D4ECC394071AEB50EE9294C /* FmSessionManager.h in Headers */,
-				26B546D05A75254920306179A46AD7AE /* FmTag.h in Headers */,
-				86EF747E3E98F9E3EF1A82B14CC0FD3D /* FmTagInventory.h in Headers */,
-				D6EC5071792CA10A3E1DECC93E1A724E /* FmType2Tag.h in Headers */,
-				E9009DA4624331F52AEB81B6B017254E /* FmType4Tag.h in Headers */,
-				CD111D47BC9FD5C62BA45932620DC9B0 /* ft301u.h in Headers */,
-				4E30ABD387CBF2A5EDBB0513E9D5C580 /* FTaR530.h in Headers */,
-				6145B281E6FDAD8DAA653708C464B7EC /* FTType.h in Headers */,
-				D6F1D3300AC09B328537D66B77B30DAE /* NdefMessage.h in Headers */,
-				4E5C9E4E3FEFD794AEF31DD6AF307206 /* NdefRecord.h in Headers */,
-				DCC903AC776E8687EFF0ED620DDB8FAB /* ReaderInterface.h in Headers */,
-				758D1B752D1121FDDCDB3906777151F0 /* TLVParser.h in Headers */,
-				76E7C664D65800CC31C251ABC7339435 /* Ugi.h in Headers */,
-				7F36FD2A2B90816536E0DC0AFDB5A3ED /* Ugi_antennaTuning.h in Headers */,
-				0A6BDDEECCBEAA14ED142074DA3F7E01 /* Ugi_firmwareUpdate.h in Headers */,
-				8527DCD396D71FEFD97C84DD515814DE /* UgiButton.h in Headers */,
-				6E7A898F62FCC20C6302D337C3BE601E /* UgiConfigurationDelegate.h in Headers */,
-				1F6C03E43C0F5D89A910CE8D4FB93931 /* UgiDefaultConfigurationUi.h in Headers */,
-				A959510E0614B966053C90B823DA7386 /* UgiEpc.h in Headers */,
-				B69DF210B5A2EEBD6A9D4AA5A38034A6 /* UgiFarsens.h in Headers */,
-				94CBE1C8859CDBCCD46751A853D466FC /* UgiFooterView.h in Headers */,
-				FDB9FC8A56C50BAC8AEB3289C7AF8BC6 /* UgiInventory.h in Headers */,
-				6D49F2F36567F9EA604FC0CBA2537C44 /* UgiInventoryDelegate.h in Headers */,
-				A48E6AE11EB94722CF7B720E41657F3B /* UgiJson.h in Headers */,
-				9A1FF9ADB40D6E6B9F01478CC69DEB5A /* UgiRfidConfiguration.h in Headers */,
-				7A57D91DCD2E1C06D2D61A51CF45347E /* UgiRfMicron.h in Headers */,
-				4D710ACF35909B1939006D30F4949127 /* UgiStatusImageView.h in Headers */,
-				9999E0C5C3BF98B5AE9E74CEF7615DE2 /* UgiSwiftBridgingHeader.h in Headers */,
-				C7D2600B480DDC3DB0D1A1C738AE7918 /* UgiTag.h in Headers */,
-				E42388FBE2510ED4B39C174B454C0780 /* UgiTagCell.h in Headers */,
-				015B7E569E198772C2A5D3F7C96D2023 /* UgiTagReadHistoryView.h in Headers */,
-				A397188C2315264E745476562A3A9564 /* UgiTagReadState.h in Headers */,
-				F3E6209C5B0644585481EC28379253C6 /* UgiTitleView.h in Headers */,
-				F5C04066FDEB86B761D185BF26B00887 /* UgiUiUtil.h in Headers */,
-				471DFC3EC747DC3A7F0675CE886B2A19 /* UgiUtil.h in Headers */,
-				B72A4AC254B675C40AC63FBDBD06567B /* UgiViewController.h in Headers */,
-				6B3E897770B5084DF934622C5767C341 /* uGrokitAjReader.h in Headers */,
-				910413F325D6BFBF5C7B9472B4026C86 /* Utilities.h in Headers */,
-				A40A38B367638E2D4F18D2FADCD806E3 /* utils.h in Headers */,
-				2C738DA5CE759361CBE313DE940835D3 /* winscard.h in Headers */,
-				9F2305AE61CC320A9CC1B435A4BF68D7 /* wintypes.h in Headers */,
+				E7B5D4DA9B489DC3F93D9ED700E94BEF /* Pods-FlomioSDK_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0ECD4D8E8ABC530528A85E9EDB67080C /* FlomioSDK-FlomioSDK */ = {
+		53C391E9FA21A7192DBA96D9FD93997A /* FlomioSDK-FlomioSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 45A59E4FA49B0E3D22D0F66E64D55A06 /* Build configuration list for PBXNativeTarget "FlomioSDK-FlomioSDK" */;
+			buildConfigurationList = 9AD3D3FB3055C29D8B1925A8781FD566 /* Build configuration list for PBXNativeTarget "FlomioSDK-FlomioSDK" */;
 			buildPhases = (
-				D8C078F8CEF8353BB209ACDEDAB449DA /* Sources */,
-				45D59627CD7410DEADE8230BF0CB535B /* Frameworks */,
-				2B3D96ABF1FDC82D763969576875D496 /* Resources */,
+				B59C4CF1D744F8C3224234D3180C35F9 /* Sources */,
+				89335B638E5B89FE65951EAC107042B4 /* Frameworks */,
+				58D57A6B15505807D4E88EB204D1A7D9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -544,43 +216,26 @@
 			);
 			name = "FlomioSDK-FlomioSDK";
 			productName = "FlomioSDK-FlomioSDK";
-			productReference = ED23FB33EF19BC0FE6F13F8AC4F408B4 /* FlomioSDK.bundle */;
+			productReference = 677BA94C6A212488A8108E8A1A10D1F8 /* FlomioSDK.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		6D002102C2785762451FEE4995A1E27A /* Pods-FlomioSDK_Example */ = {
+		D0EDE92E4AF14F6030E2376BCB139ABF /* Pods-FlomioSDK_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4730AF22CBAF2CC4BB25196CE5BCE8FA /* Build configuration list for PBXNativeTarget "Pods-FlomioSDK_Example" */;
+			buildConfigurationList = CA4D637A0C942A55EDDC45DEFAE84691 /* Build configuration list for PBXNativeTarget "Pods-FlomioSDK_Example" */;
 			buildPhases = (
-				91430879F5DEA9E1F86FDA6079E7711A /* Sources */,
-				264DF9AD176BA3C7324633B93F023782 /* Frameworks */,
+				83101BFE1C881D593A53DF1D1E1EABD4 /* Sources */,
+				DC808003550CD9220098851A67C33110 /* Frameworks */,
+				0A8CB179E7391EE9814A82FC1EB6E9C0 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				75BA27DBFA84E140FBA3E4820E4EB2A7 /* PBXTargetDependency */,
+				2864E92EF46841C5D5B740491226308F /* PBXTargetDependency */,
 			);
 			name = "Pods-FlomioSDK_Example";
 			productName = "Pods-FlomioSDK_Example";
-			productReference = 7D9019AA531EFEE2D1D67278070A2BD7 /* libPods-FlomioSDK_Example.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		AFD9F8F515F95E6663D89C468B02812D /* FlomioSDK */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7C88E439BD0062309151DD20ED644FBD /* Build configuration list for PBXNativeTarget "FlomioSDK" */;
-			buildPhases = (
-				80E54A4BEB4A00699669BA21CE76A9C4 /* Sources */,
-				1C951C3F66287B43864A77CB6257C1B8 /* Frameworks */,
-				8B7041677FDCACE57262FFD52D1B4F5E /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0296246A8639594585FF6B29549E6687 /* PBXTargetDependency */,
-			);
-			name = FlomioSDK;
-			productName = FlomioSDK;
-			productReference = 8D499475718E5412548FB9FE2F31F259 /* libFlomioSDK.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = BEB5AF76CF219389C0C2F364530D1920 /* Pods_FlomioSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -590,6 +245,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					53C391E9FA21A7192DBA96D9FD93997A = {
+						DevelopmentTeam = Q338UYGFZ8;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -599,49 +259,39 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C1EFA80AD370D25A5CD44B491AAB4170 /* Products */;
+			productRefGroup = D60CCFD46ED8CB00C7CE4DDF19C26BEF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AFD9F8F515F95E6663D89C468B02812D /* FlomioSDK */,
-				0ECD4D8E8ABC530528A85E9EDB67080C /* FlomioSDK-FlomioSDK */,
-				6D002102C2785762451FEE4995A1E27A /* Pods-FlomioSDK_Example */,
+				53C391E9FA21A7192DBA96D9FD93997A /* FlomioSDK-FlomioSDK */,
+				D0EDE92E4AF14F6030E2376BCB139ABF /* Pods-FlomioSDK_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2B3D96ABF1FDC82D763969576875D496 /* Resources */ = {
+		58D57A6B15505807D4E88EB204D1A7D9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A80F4F7BF5CA4FF3DE2EDF08737AA76 /* FloJackConnected150x150.png in Resources */,
-				ECDB2AE86BF5A2FD92DAC7B81BB164AD /* FloJackDisconnected150x150.png in Resources */,
-				C19AFFD152241D81E57D76F9AE2E9F58 /* ScanSound.caf in Resources */,
+				A855A19400E6BDA8258186F31FC3892A /* FloJackConnected150x150.png in Resources */,
+				025CF352A9833B0E58BBB75085291AEF /* FloJackDisconnected150x150.png in Resources */,
+				15337760014336CA43FBE4A5360A62DF /* ScanSound.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		80E54A4BEB4A00699669BA21CE76A9C4 /* Sources */ = {
+		83101BFE1C881D593A53DF1D1E1EABD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CAA0349E4D02270E39E437370CD7D47 /* C++Runtime.mm in Sources */,
-				A3097EA2C1408A2861F788C7272B9320 /* FlomioSDK-dummy.m in Sources */,
+				917BACF8DF75F1E598DBFD34743D6F75 /* Pods-FlomioSDK_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91430879F5DEA9E1F86FDA6079E7711A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9B2E7390631183906EEC793B38EBDC40 /* Pods-FlomioSDK_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D8C078F8CEF8353BB209ACDEDAB449DA /* Sources */ = {
+		B59C4CF1D744F8C3224234D3180C35F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -651,45 +301,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0296246A8639594585FF6B29549E6687 /* PBXTargetDependency */ = {
+		2864E92EF46841C5D5B740491226308F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "FlomioSDK-FlomioSDK";
-			target = 0ECD4D8E8ABC530528A85E9EDB67080C /* FlomioSDK-FlomioSDK */;
-			targetProxy = 817E15CC3C8E3B55E87A63E550642B98 /* PBXContainerItemProxy */;
-		};
-		75BA27DBFA84E140FBA3E4820E4EB2A7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FlomioSDK;
-			target = AFD9F8F515F95E6663D89C468B02812D /* FlomioSDK */;
-			targetProxy = 8BFC2B643583D7315A7F3EA7ACCA27E0 /* PBXContainerItemProxy */;
+			target = 53C391E9FA21A7192DBA96D9FD93997A /* FlomioSDK-FlomioSDK */;
+			targetProxy = 21385FA62D8969CC66B7B2B15B0E8CB7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0B2B7F6AC429B5155239A45C9059DF8A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F877228DDD307EF3414356ADA9957C8B /* FlomioSDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/FlomioSDK/FlomioSDK-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		26F954BA177A9A46FFFD4E23ED11D67A /* Release */ = {
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -721,143 +342,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		5221806D0D50F6A3F139075695E2F3D9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F877228DDD307EF3414356ADA9957C8B /* FlomioSDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FlomioSDK";
-				INFOPLIST_FILE = "Target Support Files/FlomioSDK/ResourceBundle-FlomioSDK-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = FlomioSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		5A6CFB7756CC785F3ACB16BA34D38230 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8EF0B39A56A91EE9A8D065512A40BB5 /* Pods-FlomioSDK_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		909810D4888E5D6DE4F503BF1530060A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85175F33D6A29E11AA8C2A352A27B0B0 /* Pods-FlomioSDK_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		CB43D0D4E9CE71D5C8021EF43F341749 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F877228DDD307EF3414356ADA9957C8B /* FlomioSDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/FlomioSDK/FlomioSDK-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -882,19 +367,101 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		E4FBC6DA8F5A16E10166541FCE780A79 /* Release */ = {
+		C17AE95F860851F8ED9372CDFD2352D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F877228DDD307EF3414356ADA9957C8B /* FlomioSDK.xcconfig */;
+			baseConfigurationReference = 9FE2004C68F3587880EA257D6A2852DC /* Pods-FlomioSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlomioSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlomioSDK_Example/Pods-FlomioSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D25562588FA4A751D345F32C69ACB7C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FlomioSDK";
+				DEVELOPMENT_TEAM = Q338UYGFZ8;
+				INFOPLIST_FILE = "Target Support Files/FlomioSDK/ResourceBundle-FlomioSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FlomioSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F53BE63BB981A7AE0409694B4B96437D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA0956353E5242D166FAD9F3A1066D29 /* Pods-FlomioSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlomioSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlomioSDK_Example/Pods-FlomioSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F5C9AA3E79C465C2AF08F625698AEDC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FlomioSDK";
+				DEVELOPMENT_TEAM = Q338UYGFZ8;
 				INFOPLIST_FILE = "Target Support Files/FlomioSDK/ResourceBundle-FlomioSDK-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = FlomioSDK;
@@ -905,41 +472,90 @@
 			};
 			name = Release;
 		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */,
-				26F954BA177A9A46FFFD4E23ED11D67A /* Release */,
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		45A59E4FA49B0E3D22D0F66E64D55A06 /* Build configuration list for PBXNativeTarget "FlomioSDK-FlomioSDK" */ = {
+		9AD3D3FB3055C29D8B1925A8781FD566 /* Build configuration list for PBXNativeTarget "FlomioSDK-FlomioSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5221806D0D50F6A3F139075695E2F3D9 /* Debug */,
-				E4FBC6DA8F5A16E10166541FCE780A79 /* Release */,
+				D25562588FA4A751D345F32C69ACB7C5 /* Debug */,
+				F5C9AA3E79C465C2AF08F625698AEDC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4730AF22CBAF2CC4BB25196CE5BCE8FA /* Build configuration list for PBXNativeTarget "Pods-FlomioSDK_Example" */ = {
+		CA4D637A0C942A55EDDC45DEFAE84691 /* Build configuration list for PBXNativeTarget "Pods-FlomioSDK_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				909810D4888E5D6DE4F503BF1530060A /* Debug */,
-				5A6CFB7756CC785F3ACB16BA34D38230 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7C88E439BD0062309151DD20ED644FBD /* Build configuration list for PBXNativeTarget "FlomioSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CB43D0D4E9CE71D5C8021EF43F341749 /* Debug */,
-				0B2B7F6AC429B5155239A45C9059DF8A /* Release */,
+				C17AE95F860851F8ED9372CDFD2352D7 /* Debug */,
+				F53BE63BB981A7AE0409694B4B96437D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

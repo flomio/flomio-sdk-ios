@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C564638467E7ABAAEFCE5C2 /* libPods-FlomioSDK Objective C Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D4B40D1ED519A9A02090B1E /* libPods-FlomioSDK Objective C Example.a */; };
 		A24B721C201A39340097DD9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A24B721B201A39340097DD9A /* AppDelegate.m */; };
 		A24B721F201A39340097DD9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A24B721E201A39340097DD9A /* ViewController.m */; };
 		A24B7222201A39340097DD9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24B7220201A39340097DD9A /* Main.storyboard */; };
 		A24B7224201A39340097DD9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A24B7223201A39340097DD9A /* Assets.xcassets */; };
 		A24B7227201A39340097DD9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24B7225201A39340097DD9A /* LaunchScreen.storyboard */; };
 		A24B722A201A39340097DD9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A24B7229201A39340097DD9A /* main.m */; };
+		CEEC39FE43531B3EA2129A80 /* Pods_FlomioSDK_Objective_C_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B457A799F461667D4D12AA /* Pods_FlomioSDK_Objective_C_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0D4B40D1ED519A9A02090B1E /* libPods-FlomioSDK Objective C Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlomioSDK Objective C Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25B457A799F461667D4D12AA /* Pods_FlomioSDK_Objective_C_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlomioSDK_Objective_C_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A24B7217201A39340097DD9A /* FlomioSDK Objective C Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FlomioSDK Objective C Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A24B721A201A39340097DD9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A24B721B201A39340097DD9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C564638467E7ABAAEFCE5C2 /* libPods-FlomioSDK Objective C Example.a in Frameworks */,
+				CEEC39FE43531B3EA2129A80 /* Pods_FlomioSDK_Objective_C_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +81,7 @@
 		DF8CEF4266B74249E999182C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0D4B40D1ED519A9A02090B1E /* libPods-FlomioSDK Objective C Example.a */,
+				25B457A799F461667D4D12AA /* Pods_FlomioSDK_Objective_C_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -124,7 +124,7 @@
 		A24B720F201A39340097DD9A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Flomio;
 				TargetAttributes = {
 					A24B7216201A39340097DD9A = {
@@ -268,6 +268,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -275,6 +276,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -302,7 +304,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -323,6 +325,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -330,6 +333,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -351,7 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -365,6 +369,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q338UYGFZ8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FlomioSDK\"",
+					"$(PODS_ROOT)/Headers/Public/FlomioSDK",
+				);
 				INFOPLIST_FILE = "FlomioSDK Objective C Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.flomio.FlomioSDK-Objective-C-Example";

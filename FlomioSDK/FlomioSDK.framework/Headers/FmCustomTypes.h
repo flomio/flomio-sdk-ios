@@ -34,8 +34,8 @@ typedef NS_ENUM(NSInteger, NdefState) {
     kIncomplete
 };
 
-typedef NS_ENUM(NSInteger, CardType) {
-    kCardTypeDefault,
+typedef NS_ENUM(NSInteger, TagType) {
+    kTagTypeDefault,
     kType2,
     kMifareClassic1k,
     kType4,

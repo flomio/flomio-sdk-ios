@@ -1,7 +1,7 @@
 {
   "name": "FlomioSDK",
   "version": "2.3.3",
-  "summary": "An iOS library for FLomio's line of NFC, BLE, and UHF RFID readers.",
+  "summary": "An iOS library for Flomio's line of NFC, BLE, and UHF RFID readers.",
   "homepage": "https://github.com/flomio/flomio-sdk-ios",
   "license": {
     "type": "Copyright",
@@ -16,16 +16,11 @@
     "tag": "2.3.3"
   },
   "vendored_frameworks": "FlomioSDK/FlomioSDK.framework",
-  "source_files": [
-    "FlomioSDK/FlomioSDK.framework/Headers/*"
-  ],
   "platforms": {
     "ios": "8.0"
   },
   "libraries": "z",
   "xcconfig": {
-    "LIBRARY_SEARCH_PATHS": "\"$(PODS_ROOT)/FlomioSDK\"",
-    "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/Headers/FlomioSDK\"",
     "OTHER_LDFLAGS": "\"-lc++\"\n        \"-ObjC\"",
     "ENABLE_BITCODE": "NO"
   },

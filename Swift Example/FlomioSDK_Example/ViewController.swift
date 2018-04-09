@@ -18,23 +18,23 @@ class ViewController: UIViewController, FmSessionManagerDelegate {
         super.viewDidLoad()
         
         let defaultConfiguration: FmConfiguration = FmConfiguration()
-        defaultConfiguration.deviceType = DeviceType.kFloBlePlus
-        defaultConfiguration.transmitPower = TransmitPower.highPower
+        defaultConfiguration.deviceType = .kFlojackMsr
+        defaultConfiguration.transmitPower = .highPower
         defaultConfiguration.scanSound = true
         defaultConfiguration.scanPeriod = 1000
-        defaultConfiguration.powerOperation = PowerOperation.autoPollingControl
+        defaultConfiguration.powerOperation = .autoPollingControl
         defaultConfiguration.allowMultiConnect = false
         flomioSDK = FmSessionManager.init(configuration: defaultConfiguration)
         flomioSDK.delegate = self
     }
     
     func didFind(_ tag: FmTag!, fromDevice deviceId: String!) {
-        self.flomioSDK.readNdef(deviceId) { (ndefMessage) in
-            guard let ndefRecords = ndefMessage?.ndefRecords else { return }
-            for case let record as NdefRecord in ndefRecords {
-                print("NDEF record payload: \(record.payloadString ?? "empty")")
-            }
+      tag.readNdef { (ndefMessage) in
+        guard let ndefRecords = ndefMessage?.ndefRecords else { return }
+        for case let record as NdefRecord in ndefRecords {
+          print("NDEF record payload: \(record.payloadString ?? "empty")")
         }
+      }
     }
     
     

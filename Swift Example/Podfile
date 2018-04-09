@@ -1,5 +1,6 @@
 platform :ios, '9.0'
 
 target 'FlomioSDK_Example' do
+  use_frameworks!
   pod 'FlomioSDK', :path => '../'
 end

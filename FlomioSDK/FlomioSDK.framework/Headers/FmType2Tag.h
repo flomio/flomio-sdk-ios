@@ -10,6 +10,8 @@
 
 @interface FmType2Tag : FmTag
 
-- (instancetype)initWithUuid:(NSString *)uuid andAtr:(NSString *)atr;
+@end
 
+@interface CapabilityContainerType2: NSObject
+@property(nonatomic, assign) int length;
 @end

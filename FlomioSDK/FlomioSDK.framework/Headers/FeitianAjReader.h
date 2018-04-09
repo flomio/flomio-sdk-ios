@@ -34,7 +34,7 @@ typedef NS_ENUM(NSInteger, bzrDispatchTimerCommands) {
     NSMutableData *dataBlock;
     int currentPosition;
     NdefState state;
-    CardType cardType;
+    TagType tagType;
     CardStatus cardStatus;
     CardStatus previousCardStatus;
     
@@ -64,6 +64,6 @@ typedef NS_ENUM(NSInteger, bzrDispatchTimerCommands) {
 @property (nonatomic, strong) NSNumber *scanSound;
 @property (nonatomic, strong) NSNumber *commSuspended;
 @property (nonatomic, strong) NSNumber *communication;
-@property (nonatomic, strong) NSString *scannedCardType;
+@property (nonatomic, strong) NSString *scannedTagType;
 
 @end

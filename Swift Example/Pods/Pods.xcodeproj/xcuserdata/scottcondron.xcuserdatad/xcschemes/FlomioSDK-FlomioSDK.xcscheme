@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0ECD4D8E8ABC530528A85E9EDB67080C"
+               BlueprintIdentifier = "53C391E9FA21A7192DBA96D9FD93997A"
                BuildableName = "FlomioSDK.bundle"
                BlueprintName = "FlomioSDK-FlomioSDK"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -26,7 +26,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -37,7 +36,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -47,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0ECD4D8E8ABC530528A85E9EDB67080C"
+            BlueprintIdentifier = "53C391E9FA21A7192DBA96D9FD93997A"
             BuildableName = "FlomioSDK.bundle"
             BlueprintName = "FlomioSDK-FlomioSDK"
             ReferencedContainer = "container:Pods.xcodeproj">
