@@ -15,7 +15,7 @@
 
 - (void)inventoryDidAddTag:(FmTag *)tag;
 - (void)inventoryDidUpdateTag:(FmTag *)tag;
-- (void)inventoryDidRemoveTagWithUuid:(NSString *)uuid;
+- (void)inventoryDidRemoveTagWithUid:(NSString *)uid;
 
 @end
 
@@ -25,7 +25,7 @@
 @property (nonatomic, weak) id<FmTagInventoryDelegate> delegate;
 
 - (void)addTag:(FmTag *)tag;
-- (void)removeTagWithUuid:(NSString *)uuid;
-- (FmTag *)tagWithUuid:(NSString *)uuid;
+- (void)removeTagWithUid:(NSString *)uid;
+- (FmTag *)tagWithUid:(NSString *)uid;
 
 @end

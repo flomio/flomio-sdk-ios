@@ -49,7 +49,7 @@ typedef NS_ENUM(NSInteger, CardStatus) {
 };
 
 typedef NS_ENUM(NSInteger, TagDiscovery) {
-    kReadUuid,
+    kReadUid,
     kReadData,
     kWriteData
 };

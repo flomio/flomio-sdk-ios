@@ -12,13 +12,13 @@ import FlomioSDK
 class ViewController: UIViewController, FmSessionManagerDelegate {
     
     lazy var flomioSDK : FmSessionManager = FmSessionManager()
-    var deviceUuid : String?
+    var deviceUid : String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let defaultConfiguration: FmConfiguration = FmConfiguration()
-        defaultConfiguration.deviceType = .kFlojackMsr
+        defaultConfiguration.deviceType = .kFloBlePlus
         defaultConfiguration.transmitPower = .highPower
         defaultConfiguration.scanSound = true
         defaultConfiguration.scanPeriod = 1000
@@ -28,28 +28,28 @@ class ViewController: UIViewController, FmSessionManagerDelegate {
         flomioSDK.delegate = self
     }
     
-    func didFind(_ tag: FmTag!, fromDevice deviceId: String!) {
-      tag.readNdef { (ndefMessage) in
-        guard let ndefRecords = ndefMessage?.ndefRecords else { return }
-        for case let record as NdefRecord in ndefRecords {
-          print("NDEF record payload: \(record.payloadString ?? "empty")")
-        }
+  func didFind(_ tag: FmTag!, fromDevice deviceUid: String!) {
+    tag.readNdef { (ndefMessage) in
+      guard let ndefRecords = ndefMessage?.ndefRecords else { return }
+      for case let record as FmNdefRecord in ndefRecords {
+        print("NDEF record payload: \(record.payloadString ?? "empty")")
       }
     }
+  }
     
     
-    func didChangeStatus(_ deviceUuid: String!, with configuration: FmConfiguration!, andBatteryLevel batteryLevel: NSNumber!, andCommunicationStatus communicationStatus: CommunicationStatus, withFirmwareRevision firmwareRev: String!, withHardwareRevision hardwareRev: String!) {
+    func didChangeStatus(_ deviceUid: String!, with configuration: FmConfiguration!, andBatteryLevel batteryLevel: NSNumber!, andCommunicationStatus communicationStatus: CommunicationStatus, withFirmwareRevision firmwareRev: String!, withHardwareRevision hardwareRev: String!) {
         DispatchQueue.main.async {
-            guard let thisDeviceUuid = deviceUuid else { return }
-            self.deviceUuid = thisDeviceUuid;
-            print("Device: \(thisDeviceUuid)")
+            guard let thisDeviceUid = deviceUid else { return }
+            self.deviceUid = thisDeviceUid;
+            print("Device: \(thisDeviceUid)")
         }
     }
     
-    func didGetLicenseInfo(_ deviceUuid: String!, withStatus isRegistered: Bool) {
+    func didGetLicenseInfo(_ deviceUid: String!, withStatus isRegistered: Bool) {
         DispatchQueue.main.async {
-            if let thisDeviceUuid = deviceUuid {
-                print("Device: \(thisDeviceUuid) Registered: \(isRegistered)")
+            if let thisDeviceUid = deviceUid {
+                print("Device: \(thisDeviceUid) Registered: \(isRegistered)")
             }
         }
     }

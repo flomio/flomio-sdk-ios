@@ -43,12 +43,12 @@
 - (id)init;
 - (void)startScan;
 - (void)disconnectPeripheral:(CBPeripheral*)peripheral;
-- (void) startScanningForUUIDString:(NSString *)uuidString;
-- (void) startScanningForCBUUID:(CBUUID *)uuid;
-- (void) startScanningForCBUUIDs:(NSArray *)uuidArray;
-- (void) discoverServicesForUUIDString:(CBPeripheral *)peripheral uuidString:(NSString *)uuidString;
-- (void) discoverServicesForCBUUID:(CBPeripheral *)peripheral cbuuid:(CBUUID *)uuid;
-- (void) discoverServicesForCBUUID:(CBPeripheral *)peripheral withCBUUIDs:(NSArray *)uuidArray;
+- (void) startScanningForUUIDString:(NSString *)uidString;
+- (void) startScanningForCBUUID:(CBUUID *)uid;
+- (void) startScanningForCBUUIDs:(NSArray *)uidArray;
+- (void) discoverServicesForUUIDString:(CBPeripheral *)peripheral uidString:(NSString *)uidString;
+- (void) discoverServicesForCBUUID:(CBPeripheral *)peripheral cbuid:(CBUUID *)uid;
+- (void) discoverServicesForCBUUID:(CBPeripheral *)peripheral withCBUUIDs:(NSArray *)uidArray;
 - (void)delayStartScanTimerService:(NSTimer*)aTimer;
 - (id)initWithDelegate:(id<FloBLEReaderDelegate>)floBleDelegate;
 - (void)writePeriperalWithResponse:(UInt8*)dataToWrite;

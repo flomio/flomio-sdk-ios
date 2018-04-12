@@ -26,7 +26,7 @@ typedef NS_ENUM(NSInteger, bzrDispatchTimerCommands) {
 
 @interface FeitianAjReader : FmReader <FTaR530Delegate, AVAudioPlayerDelegate> {
 
-    BOOL isRequestingUuid;
+    BOOL isRequestingUid;
     BOOL registry_mode;
     
     // NDEF

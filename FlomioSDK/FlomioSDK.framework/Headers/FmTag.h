@@ -7,30 +7,22 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "NdefMessage.h"
+#import "FmNdefMessage.h"
 #import "FmCustomTypes.h"
-#import "TLVParser.h"
+#import "TLV.h"
 
-@class FmSessionManager;
+@class FmSession;
 
 @interface FmTag : NSObject
 
 @property (nonatomic, strong) NSString *atr;
-@property (nonatomic, strong) NSString *uuid;
+@property (nonatomic, strong) NSString *uid;
 @property (nonatomic) TagType type;
-@property (nonatomic, strong) NSString *deviceUuid;
+@property (nonatomic, weak) FmSession *session;
 
-- (instancetype)initWithUuid:(NSString *)uuid andAtr:(NSString *)atr andType:(TagType)type;
-- (NSString *)getCommandApduAfter:(NSString *)previousCommand;
+- (instancetype)initWithUid:(NSString *)uid andAtr:(NSString *)atr andType:(TagType)type fromSession:(FmSession *)session;
 - (void)sendApdu:(NSString *)apdu success:(void (^)(NSString *))completionBlock;
-- (void)writeNdef:(NdefMessage *)ndef success:(void (^)(BOOL))completionBlock;
-- (void)readNdef:(void (^)(NdefMessage *))completionBlock;
-- (void)parseResponseData:(NSData *)data success:(void (^)(NdefMessage *))completionBlock;
-- (void)readPage:(int)page success:(void (^)(NSData *))completionBlock;
-
-//Command Apdus
-+ (NSString *)readBinaryCommandwithOffset:(NSString *)offset andLength:(NSString *)length;
-+ (NSString *)getUuid;
-+ (NSString *)writePage:(int)page withData:(NSData *)dataToWrite;
+- (void)writeNdef:(FmNdefMessage *)ndef success:(void (^)(BOOL))completionBlock;
+- (void)readNdef:(void (^)(FmNdefMessage *))completionBlock;
 
 @end

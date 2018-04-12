@@ -14,7 +14,7 @@
 @end
 
 @implementation ViewController {
-    NSString *_deviceUuid;
+    NSString *_deviceUid;
     FmSessionManager *flomioSDK;
 }
 
@@ -35,23 +35,23 @@
     flomioSDK.delegate = self;
 }
 
-- (void)didFindTag:(FmTag *)tag fromDevice:(NSString *)deviceUuid{
-    [tag readNdef:^(NdefMessage *ndef) {
-        for(NdefRecord *record in ndef.ndefRecords) {
+- (void)didFindTag:(FmTag *)tag fromDevice:(NSString *)deviceUid{
+    [tag readNdef:^(FmNdefMessage *ndef) {
+        for(FmNdefRecord *record in ndef.ndefRecords) {
             NSLog(@"Record Payload: %@", record.payloadString);
         }
     }];
 }
 
-- (void)didChangeStatus:(NSString *)deviceUuid withConfiguration:(FmConfiguration *)configuration andBatteryLevel:(NSNumber *)batteryLevel andCommunicationStatus:(CommunicationStatus)communicationStatus withFirmwareRevision:(NSString *)firmwareRev withHardwareRevision:(NSString *)hardwareRev{
-    _deviceUuid = deviceUuid;
+- (void)didChangeStatus:(NSString *)deviceUid withConfiguration:(FmConfiguration *)configuration andBatteryLevel:(NSNumber *)batteryLevel andCommunicationStatus:(CommunicationStatus)communicationStatus withFirmwareRevision:(NSString *)firmwareRev withHardwareRevision:(NSString *)hardwareRev{
+    _deviceUid = deviceUid;
 }
 
-- (void)didChangeCardStatus:(CardStatus)status fromDevice:(NSString *)deviceUuid{
+- (void)didChangeCardStatus:(CardStatus)status fromDevice:(NSString *)deviceUid{
     
 }
 
-- (void)didGetLicenseInfo:(NSString *)deviceUuid withStatus:(BOOL)isRegistered{
+- (void)didGetLicenseInfo:(NSString *)deviceUid withStatus:(BOOL)isRegistered{
     
 }
 

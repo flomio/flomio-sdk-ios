@@ -9,7 +9,6 @@
 #import "FmTag.h"
 
 @interface FmType2Tag : FmTag
-
 @end
 
 @interface CapabilityContainerType2: NSObject

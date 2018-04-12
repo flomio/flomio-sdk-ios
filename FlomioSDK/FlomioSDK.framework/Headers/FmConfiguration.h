@@ -21,7 +21,7 @@
 @property (nonatomic) PowerOperation powerOperation;
 @property (nonatomic) TransmitPower transmitPower;
 @property (nonatomic, strong) NSNumber *allowMultiConnect;
-@property (nonatomic, strong) NSString *specificDeviceUuid;
+@property (nonatomic, strong) NSString *specificDeviceUid;
 @property (nonatomic, assign) NSNumber *isCeMode;
 
 - (void)setConfiguration:(FmConfiguration *)configurationDictionary;

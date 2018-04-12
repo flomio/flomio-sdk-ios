@@ -37,46 +37,30 @@
 
 @optional
 
-- (void)didGetDeviceInfoWith:(NSString *)deviceUuid withFirmwareRevision:(NSString *)firmwareRev withHardwareRevision:(NSString *)hardwareRev;
-- (void)didGetLicenseInfo:(NSString *)deviceUuid withStatus:(BOOL)isRegistered;
+- (void)didGetDeviceInfoWith:(NSString *)deviceUid withFirmwareRevision:(NSString *)firmwareRev withHardwareRevision:(NSString *)hardwareRev;
+- (void)didGetLicenseInfo:(NSString *)deviceUid withStatus:(BOOL)isRegistered;
 - (void)didReceiveReaderError:(NSError *)error;
 - (void)didGetResponseApdu:(NSString *)responseApdu;
 - (void)didChangeCardStatus:(CardStatus)status fromDevice:(NSString *)device;
 - (void)didChangeStatus:(NSString *)device andBatteryLevel:(NSUInteger)batteryLevel andCommunicationStatus:(CommunicationStatus)communicationStatus;
-- (void)didFindTag:(FmTag *)tag fromDevice:(NSString *)deviceUuid;
+- (void)didFindTag:(FmTag *)tag fromDevice:(NSString *)deviceUid;
 
 @end
 
 @interface FmSession : NSObject <FmReaderDelegate, FmTagInventoryDelegate>
-
-//Properties
-//-license
-//-connectionType
-//-connectionMode
-//-pollingType
-//-tagInventory
-//-currentTag
-//-sessionState
 
 @property (nonatomic, strong) id<FmSessionDelegate> delegate;
 @property (nonatomic, strong) FmConfiguration *configuration;
 @property (nonatomic, assign) CommunicationStatus communicationStatus;
 @property (nonatomic) NSUInteger batteryLevel;
 @property (nonatomic, strong) FmReader *reader;
-@property (nonatomic, strong) NSString *deviceUuid;
+@property (nonatomic, strong) NSString *deviceUid;
 @property (nonatomic, strong) NSString *firmwareRevision;
 @property (nonatomic, strong) NSString *hardwareRevision;
 @property (nonatomic, assign) BOOL isProLicensed;
 @property (nonatomic, strong) CBPeripheral *peripheral;
 @property (nonatomic, strong) FmTagInventory *tagInventory;
 @property (nonatomic, strong) NSString *currentAtr;
-@property (nonatomic) TagType currentTagType;
-
-//tagUuid createTag
-//foundNewTag:tag
-//addTagToInventory:tag
-//removeTagFromInventory:tag
-//getTagInventory:tags
 
 - (instancetype)initWithPeripheral:(CBPeripheral *)peripheral andConfiguration:(FmConfiguration *)configuration;
 - (void)setConfiguration:(FmConfiguration *)configuration;
@@ -86,7 +70,7 @@
 - (void)stopReader;
 - (void)sleepReader;
 - (void)reconnectBluetoothReader;
-- (void)updateCeNdef:(NdefMessage *)ndef;
+- (void)updateCeNdef:(FmNdefMessage *)ndef;
 - (void)writeRfidTag:(NSData *)data withOffset:(int)offset success:(void (^)(NSString *))completionBlock;
 - (void)readRfidTag:(int)offset success:(void (^)(NSString *))completionBlock;
 

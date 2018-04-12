@@ -8,11 +8,12 @@
 @protocol ReaderInterfaceDelegate<NSObject>
 @required
 
-- (void)findPeripheralReader:(NSString *)readerName;
 
-- (void)readerInterfaceDidChange:(BOOL)attached;
+- (void) findPeripheralReader:(NSString *)readerName;
 
-- (void)cardInterfaceDidDetach:(BOOL)attached;
+- (void) readerInterfaceDidChange:(BOOL)attached;
+
+- (void) cardInterfaceDidDetach:(BOOL)attached;
 
 
 @end
@@ -53,8 +54,9 @@
 
 /**
  *depend on the readerName to Connect Peripheral Readr
+ *timeout is a number need set by customer, the lib will try to connect reader, but if the reader already turn off or had long distance between iOS and reader, then after that time, will return connection failure
  */
-- (void)connectPeripheralReader:(NSString *)readerName;
+- (BOOL)connectPeripheralReader:(NSString *)readerName timeout:(float)timeout;
 
 /**
  *disConnect the current Peripheral Reader

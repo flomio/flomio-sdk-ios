@@ -18,20 +18,20 @@
 #import <CoreBluetooth/CoreBluetooth.h>
 #import "FmConfiguration.h"
 #import "FmErrorManager.h"
-#import "FmNdefManager.h"
 #import "Utilities.h"
+#import "FmNdefMessage.h"
 
 @protocol FmReaderDelegate<NSObject>
 
 @required
 
-- (void)didAddTagToUuidInventory:(NSString *)uuid;
-- (void)didFindExistingTag:(NSString *)uuid;
-- (void)didGetAtr:(NSString *)atr withTagType:(TagType)tagType;
+- (void)didAddTagToUidInventory:(NSString *)uid;
+- (void)didFindExistingTag:(NSString *)uid;
+- (void)didGetAtr:(NSString *)atr;
 - (void)didGetBatteryLevel:(NSInteger)batteryLevel;
 - (void)didGetCommunicationStatus:(CommunicationStatus)communicationStatus;
 - (void)didChangeCardStatus:(CardStatus)status fromDevice:(NSString *)device;
-- (void)didGetDeviceInfoWith:(NSString *)deviceUuid withFirmwareRevision:(NSString *)firmwareRev withHardwareRevision:(NSString *)hardwareRev;
+- (void)didGetDeviceInfoWith:(NSString *)deviceUid withFirmwareRevision:(NSString *)firmwareRev withHardwareRevision:(NSString *)hardwareRev;
 - (void)didReceiveReaderError:(NSError *)error;
 
 @end
@@ -41,16 +41,16 @@
 @property (nonatomic, strong) id<FmReaderDelegate> delegate;
 @property (nonatomic, assign) DeviceType type;
 @property (nonatomic) NSUInteger batteryLevel;
-@property (nonatomic, strong) NSString *deviceUuid;
+@property (nonatomic, strong) NSString *deviceUid;
 @property (nonatomic, strong) NSString *hardwareRevision;
 @property (nonatomic, strong) NSString *firmwareRevision;
 
-@property (nonatomic, strong) NSMutableArray *tagUuidInventory;
+@property (nonatomic, strong) NSMutableArray *tagUidInventory;
 @property (nonatomic, strong) NSString *currentAtr;
-@property (nonatomic, strong) NSString *currentUuid;
+@property (nonatomic, strong) NSString *currentUid;
 @property (nonatomic, strong) NSString *currentApdu;
 @property (nonatomic, strong) NSString *currentResponse;
-@property (nonatomic, strong) NSString *apduRequestUuid;
+@property (nonatomic, strong) NSString *apduRequestUid;
 
 //These methods which must be overwritten by subclassess
 
@@ -69,11 +69,11 @@
 
 - (void)wakeReader;
 - (void)reconnectBluetoothReader;
-- (void)updateCeNdef:(NdefMessage *)ndef;
+- (void)updateCeNdef:(FmNdefMessage *)ndef;
 
 //General Methods exclusive to FmReader superclass
-- (BOOL)determineIfNewUuid:(NSString *)uuid;
-- (void)addUuidToTagInventory:(NSString *)uuid;
+- (BOOL)determineIfNewUid:(NSString *)uid;
+- (void)addUidToTagInventory:(NSString *)uid;
 - (NSString *)handleApduResponse:(NSString *)responseString;
 - (void)writeRfidTag:(NSData *)data withOffset:(int)offset success:(void (^)(NSString *))completionBlock;
 - (void)readRfidTag:(int)offset success:(void (^)(NSString *))completionBlock;

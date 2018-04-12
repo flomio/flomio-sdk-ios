@@ -37,7 +37,7 @@
 @property (nonatomic, strong) ReaderInterface  *br500Manager;
 @property (nonatomic, assign) id<FmBluetoothConnectionsManagerDelegate> delegate;
 @property (nonatomic, strong) FmConfiguration *configuration;
-@property (nonatomic, strong) NSString *connectedPeripheralDeviceUuid;
+@property (nonatomic, strong) NSString *connectedPeripheralDeviceUid;
 
 @property (strong,nonatomic) NSMutableArray *peripherals; //this is needed as a strong reference to the peripherals so ARC doesn't remove old peripherals
 @property (strong,nonatomic) NSMutableArray *uniquePeripheralIds; //store each peripheral Id to determine reconnections

@@ -27,7 +27,7 @@
 @interface AcsBtReader : FmReader <ABTBluetoothReaderManagerDelegate, ABTBluetoothReaderDelegate> {
 
     NSArray *connectedPeripherals;
-    BOOL isRequestingUuid;
+    BOOL isRequestingUid;
     
     // NDEF
     BOOL isRequestingData;
@@ -53,7 +53,7 @@
 @property (nonatomic, assign) BOOL isProLicensed;
 @property (nonatomic, strong) id<AcsBtReaderDelegate> delegate;
 @property (nonatomic, strong) CBPeripheral *peripheral;
-@property (nonatomic, strong) NSMutableArray *accepteddeviceUuids;
+@property (nonatomic, strong) NSMutableArray *accepteddeviceUids;
 @property (nonatomic, assign) CommunicationStatus communicationStatus;
 //configuration
 @property (nonatomic, assign) TagDiscovery tagDiscovery;

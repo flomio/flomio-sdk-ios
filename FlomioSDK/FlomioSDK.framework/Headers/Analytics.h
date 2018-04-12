@@ -12,5 +12,4 @@
 
 + (void)trackEventWithCategory:(NSString *)category andAction:(NSString *)action andLabel:(NSString *)label;
 
-
 @end
