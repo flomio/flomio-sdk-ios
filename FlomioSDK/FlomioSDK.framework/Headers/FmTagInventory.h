@@ -10,6 +10,7 @@
 #import "FmTag.h"
 #import "FmType2Tag.h"
 #import "FmType4Tag.h"
+#import "FmMifareClassicTag.h"
 
 @protocol FmTagInventoryDelegate <NSObject>
 

@@ -53,7 +53,6 @@ typedef NS_ENUM(NSInteger, DispatchTimerCommands) {
 @property (nonatomic, strong) id <AcsAjReaderDelegate> delegate;
 
 @property (nonatomic) int previousBatteryLevel;
-@property (nonatomic, assign) BOOL isProLicensed;
 @property (nonatomic, strong) NSNumber *scanPeriod;
 @property (nonatomic, strong) NSNumber *communication;
 @property (nonatomic, strong) NSNumber *isPolling;

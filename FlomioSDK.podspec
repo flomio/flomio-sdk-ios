@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'FlomioSDK'
-    s.version          = '3.0.1'
+    s.version          = '3.0.2'
     s.summary          = "An iOS library for Flomio's line of NFC, BLE, and UHF RFID readers."
     s.homepage         = 'https://github.com/flomio/flomio-sdk-ios'
     s.license          = {
