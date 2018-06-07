@@ -368,7 +368,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q338UYGFZ8;
-				GCC_PREPROCESSOR_DEFINITIONS = "COCOAPODS=1";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"COCOAPODS=1",
+					"DEBUG=1",
+				);
 				HEADER_SEARCH_PATHS = (
 					"/Users/scottcondron/Developer/flomio-sdk-ios/FlomioSDK/FlomioSDK.framework/Headers/",
 					"/Users/scottcondron/Developer/flomio-sdk-ios/FlomioSDK/FlomioSDK.framework/Headers/",
@@ -392,6 +395,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q338UYGFZ8;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"DEBUG=1",
+				);
 				HEADER_SEARCH_PATHS = (
 					"/Users/scottcondron/Developer/flomio-sdk-ios/FlomioSDK/FlomioSDK.framework/Headers/",
 					"/Users/scottcondron/Developer/flomio-sdk-ios/FlomioSDK/FlomioSDK.framework/Headers/",

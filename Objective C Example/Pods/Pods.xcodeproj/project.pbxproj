@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		025CF352A9833B0E58BBB75085291AEF /* FloJackDisconnected150x150.png in Resources */ = {isa = PBXBuildFile; fileRef = FD489D5DDA632C52BF3ED5BC5BE5B82D /* FloJackDisconnected150x150.png */; };
 		078D5D5A991C766E6DF9FE8F22C1D13E /* Pods-FlomioSDK Objective C Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C70634CDCFEA69DE55AF7B925F39F53 /* Pods-FlomioSDK Objective C Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A4D948A911DCE1121964A3CA8E1D1E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		15337760014336CA43FBE4A5360A62DF /* ScanSound.caf in Resources */ = {isa = PBXBuildFile; fileRef = 375A9F33D2801C260EF988D111AEBD19 /* ScanSound.caf */; };
-		1D5D42C028D9297D56B746CB120AEA9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		669922C81F3704D9D67B3D1B1AC8F299 /* Pods-FlomioSDK Objective C Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA4BAA0C9303B23C9EA39820D790D4 /* Pods-FlomioSDK Objective C Example-dummy.m */; };
 		A855A19400E6BDA8258186F31FC3892A /* FloJackConnected150x150.png in Resources */ = {isa = PBXBuildFile; fileRef = E275EF09FAC4064F6A1F67D825A57497 /* FloJackConnected150x150.png */; };
 /* End PBXBuildFile section */
@@ -31,9 +31,9 @@
 		376FBF85AA827EE7657C0EA9D52A1BEA /* FlomioSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FlomioSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3B9631C8C20E0986F58D810B816D77CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D4FAB1AE944FE2E70E5D30A910FB97D /* ResourceBundle-FlomioSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FlomioSDK-Info.plist"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5AB8AD419FC6425334634B7B076D5EA4 /* Pods_FlomioSDK_Objective_C_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FlomioSDK_Objective_C_Example.framework; path = "Pods-FlomioSDK Objective C Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		657CD7943EF9470583937D25AFA83338 /* Pods-FlomioSDK Objective C Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlomioSDK Objective C Example-resources.sh"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7950E13816BE7043E8D2A506DB7CFCFB /* Pods-FlomioSDK Objective C Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlomioSDK Objective C Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7AF2FEEB8A6BA187E2CC01F9A4EA25BB /* FlomioSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FlomioSDK.bundle; path = "FlomioSDK-FlomioSDK.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C70634CDCFEA69DE55AF7B925F39F53 /* Pods-FlomioSDK Objective C Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlomioSDK Objective C Example-umbrella.h"; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D5D42C028D9297D56B746CB120AEA9B /* Foundation.framework in Frameworks */,
+				0A4D948A911DCE1121964A3CA8E1D1E0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +128,14 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -159,17 +167,9 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		F21B4444B9014446BD4F2BC9D62863BF /* Development Pods */ = {

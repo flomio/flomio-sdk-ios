@@ -29,7 +29,6 @@
     defaultConfiguration.scanSound = @YES;
     defaultConfiguration.scanPeriod = @1000;
     defaultConfiguration.powerOperation = kAutoPollingControl;
-    defaultConfiguration.transmitPower = kHighPower;
     defaultConfiguration.allowMultiConnect = @NO;
     flomioSDK = [[FmSessionManager flomioSDK] initWithConfiguration:defaultConfiguration];
     flomioSDK.delegate = self;
