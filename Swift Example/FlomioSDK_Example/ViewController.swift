@@ -25,6 +25,8 @@ class ViewController: UIViewController, FmSessionManagerDelegate {
     defaultConfiguration.powerOperation = .autoPollingControl
     defaultConfiguration.allowMultiConnect = false
     flomioSDK = FmSessionManager.init(configuration: defaultConfiguration)
+    
+    
     flomioSDK.delegate = self
   }
   

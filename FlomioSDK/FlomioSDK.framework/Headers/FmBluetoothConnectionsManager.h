@@ -41,6 +41,7 @@
 
 @property (strong,nonatomic) NSMutableArray *peripherals; //this is needed as a strong reference to the peripherals so ARC doesn't remove old peripherals
 @property (strong,nonatomic) NSMutableArray *uniquePeripheralIds; //store each peripheral Id to determine reconnections
+@property (strong, nonatomic) NSString *specificDeviceUid;
 
 - (id)initWithConfiguration:(FmConfiguration *)configuration;
 - (void)reconnectPeripheral:(CBPeripheral *)peripheral;

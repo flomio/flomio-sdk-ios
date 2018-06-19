@@ -70,7 +70,7 @@
 		</data>
 		<key>Headers/AcsBtReader.h</key>
 		<data>
-		OUsP2KRJNqUfxkYX2M8RdFO3sB4=
+		m2Z0pTtB4bCA2AEY9OA/MOFcFno=
 		</data>
 		<key>Headers/AudioJack.h</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Headers/FmBluetoothConnectionsManager.h</key>
 		<data>
-		obgIIhqX0F9gmK2/w9U2JX1jghU=
+		Eo5TLhk1OXZIQD0aO4wlF/EgdYs=
 		</data>
 		<key>Headers/FmConfiguration.h</key>
 		<data>
@@ -266,7 +266,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		A+8B1wSdjYezoF/6cZDkgQxoS0Q=
+		Y7IHhoxk56jMUPFod5YHPR2XVUE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -523,11 +523,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OUsP2KRJNqUfxkYX2M8RdFO3sB4=
+			m2Z0pTtB4bCA2AEY9OA/MOFcFno=
 			</data>
 			<key>hash2</key>
 			<data>
-			2FvkNkDnsW1owEavuFMdYFfl4uJmoGD4M/OyToSyrmU=
+			MBM8R6kQFmD9nafrqYa5u1o6st7r1mjLkWW99pyBE8U=
 			</data>
 		</dict>
 		<key>Headers/AudioJack.h</key>
@@ -633,11 +633,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			obgIIhqX0F9gmK2/w9U2JX1jghU=
+			Eo5TLhk1OXZIQD0aO4wlF/EgdYs=
 			</data>
 			<key>hash2</key>
 			<data>
-			0AjFMnZa1dDR6exE1zX0j/az/n1Zu69zrSofa7pNY1U=
+			AUArYPlq4ocM5u28NWHyYpZp2mcizdZ/v+cfzxHXWpg=
 			</data>
 		</dict>
 		<key>Headers/FmConfiguration.h</key>

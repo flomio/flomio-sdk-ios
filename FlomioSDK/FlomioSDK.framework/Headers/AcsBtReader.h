@@ -60,6 +60,7 @@
 @property (nonatomic, assign) TransmitPower transmitPower;
 @property (nonatomic, assign) PowerOperation powerOperation;
 @property(nonatomic, copy) void (^completionBlock)(NSString *);
+@property(nonatomic, copy) void (^escapeCommandCompletionBlock)(NSData *);
 @property (nonatomic, assign) NSNumber *isCeMode;
 
 
