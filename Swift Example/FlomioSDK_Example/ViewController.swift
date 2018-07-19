@@ -18,7 +18,7 @@ class ViewController: UIViewController, FmSessionManagerDelegate {
     super.viewDidLoad()
     
     let defaultConfiguration: FmConfiguration = FmConfiguration()
-    defaultConfiguration.deviceType = .kFloBlePlus
+    defaultConfiguration.deviceType = .kFloBleEmv
     defaultConfiguration.transmitPower = .highPower
     defaultConfiguration.scanSound = true
     defaultConfiguration.scanPeriod = 1000
@@ -35,6 +35,12 @@ class ViewController: UIViewController, FmSessionManagerDelegate {
       guard let ndefRecords = ndefMessage?.ndefRecords else { return }
       for case let record as FmNdefRecord in ndefRecords {
         print("NDEF record payload: \(record.payloadString ?? "empty")")
+      }
+    }
+    let ndefMessage = FmNdefMessage.createURI(with: "https://flomio.com")
+    tag.writeNdef(ndefMessage) { (success) in
+      if (success){
+        print("NDEF message written successfully")
       }
     }
   }

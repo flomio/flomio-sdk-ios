@@ -26,7 +26,6 @@
 
 @interface AcsBtReader : FmReader <ABTBluetoothReaderManagerDelegate, ABTBluetoothReaderDelegate> {
 
-    NSArray *connectedPeripherals;
     BOOL isRequestingUid;
     
     // NDEF
