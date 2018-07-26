@@ -1,5 +1,5 @@
 PODS:
-  - FlomioSDK (3.0.3-beta2)
+  - FlomioSDK (3.0.3-beta3)
 
 DEPENDENCIES:
   - FlomioSDK (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FlomioSDK: d087c394dc087b1109c77e179242345d1a047ebc
+  FlomioSDK: 86751cb5b60394ccff815d07fb65b1bb7210d7e5
 
 PODFILE CHECKSUM: ceb1b9b7391d5eb4faf94dceb8689f0e509abd9f
 

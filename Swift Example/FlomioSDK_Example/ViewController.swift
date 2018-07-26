@@ -18,15 +18,13 @@ class ViewController: UIViewController, FmSessionManagerDelegate {
     super.viewDidLoad()
     
     let defaultConfiguration: FmConfiguration = FmConfiguration()
-    defaultConfiguration.deviceType = .kFloBleEmv
+    defaultConfiguration.deviceType = .kFloBlePlus
     defaultConfiguration.transmitPower = .highPower
-    defaultConfiguration.scanSound = true
+    defaultConfiguration.scanSound = false
     defaultConfiguration.scanPeriod = 1000
     defaultConfiguration.powerOperation = .autoPollingControl
     defaultConfiguration.allowMultiConnect = false
     flomioSDK = FmSessionManager.init(configuration: defaultConfiguration)
-    
-    
     flomioSDK.delegate = self
   }
   
