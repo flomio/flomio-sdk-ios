@@ -18,19 +18,18 @@ class ViewController: UIViewController, FmSessionManagerDelegate {
     super.viewDidLoad()
     
     let defaultConfiguration: FmConfiguration = FmConfiguration()
-    defaultConfiguration.deviceType = .kFloBleEmv
+    defaultConfiguration.deviceType = .kuGrokit
     defaultConfiguration.transmitPower = .highPower
-    defaultConfiguration.scanSound = true
+    defaultConfiguration.scanSound = false
     defaultConfiguration.scanPeriod = 1000
     defaultConfiguration.powerOperation = .autoPollingControl
     defaultConfiguration.allowMultiConnect = false
     flomioSDK = FmSessionManager.init(configuration: defaultConfiguration)
-    
-    
     flomioSDK.delegate = self
   }
   
   func didFind(_ tag: FmTag!, fromDevice deviceUid: String!) {
+    print("did Find tag \(tag.uid)")
     tag.readNdef { (ndefMessage) in
       guard let ndefRecords = ndefMessage?.ndefRecords else { return }
       for case let record as FmNdefRecord in ndefRecords {
