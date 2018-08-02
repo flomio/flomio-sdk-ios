@@ -114,7 +114,7 @@
 		</data>
 		<key>Headers/FmConfiguration.h</key>
 		<data>
-		/Gi5R+sGA8qHX0vLZ4GYuPmrn+8=
+		jC7txtK9nFBhQAZeuQFgl9zeVVM=
 		</data>
 		<key>Headers/FmConnectionsManager.h</key>
 		<data>
@@ -266,7 +266,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Y7IHhoxk56jMUPFod5YHPR2XVUE=
+		0LhaxppsMuK4KcLLNoLhAsieIdg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -644,11 +644,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/Gi5R+sGA8qHX0vLZ4GYuPmrn+8=
+			jC7txtK9nFBhQAZeuQFgl9zeVVM=
 			</data>
 			<key>hash2</key>
 			<data>
-			NzCLLfQQy8pt1dIiSUZrIQRX3lOLfY5Cg0uhhUqZEFM=
+			p+WK5w4P2OVNKz606/mZtfGu79OGftCcBo/cRwHWhCQ=
 			</data>
 		</dict>
 		<key>Headers/FmConnectionsManager.h</key>
