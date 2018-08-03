@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E25FF8B776D79A224F7006F /* Pods_FlomioSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C672FC49DDBC5845C0457BD /* Pods_FlomioSDK_Example.framework */; };
 		A2DA6ED0201A03E6003C00DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DA6ECF201A03E6003C00DD /* AppDelegate.swift */; };
 		A2DA6ED2201A03E6003C00DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DA6ED1201A03E6003C00DD /* ViewController.swift */; };
 		A2DA6ED5201A03E6003C00DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2DA6ED3201A03E6003C00DD /* Main.storyboard */; };
 		A2DA6ED7201A03E6003C00DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2DA6ED6201A03E6003C00DD /* Assets.xcassets */; };
 		A2DA6EDA201A03E6003C00DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2DA6ED8201A03E6003C00DD /* LaunchScreen.storyboard */; };
 		A2DA6EE2201A05A2003C00DD /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DA6EE1201A05A2003C00DD /* libz.1.2.5.tbd */; };
+		E8F0D90FC1B942A1B1FC8DBD /* Pods_FlomioSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B7023A69C63962CE1A0AB1 /* Pods_FlomioSDK_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		12F3ECFF89DF694901BB50B9 /* Pods-FlomioSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlomioSDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlomioSDK_Example/Pods-FlomioSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6C672FC49DDBC5845C0457BD /* Pods_FlomioSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlomioSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		178D0E19775388B7E44E0C41 /* Pods-FlomioSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlomioSDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlomioSDK_Example/Pods-FlomioSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		49326AD4D1E38F65551CBA25 /* Pods-FlomioSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlomioSDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlomioSDK_Example/Pods-FlomioSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		87B7023A69C63962CE1A0AB1 /* Pods_FlomioSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlomioSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2DA6ECC201A03E6003C00DD /* FlomioSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlomioSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2DA6ECF201A03E6003C00DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2DA6ED1201A03E6003C00DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,7 +28,6 @@
 		A2DA6ED9201A03E6003C00DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2DA6EDB201A03E6003C00DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2DA6EE1201A05A2003C00DD /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
-		D65771370A19EA5388448E7D /* Pods-FlomioSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlomioSDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlomioSDK_Example/Pods-FlomioSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +36,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2DA6EE2201A05A2003C00DD /* libz.1.2.5.tbd in Frameworks */,
-				3E25FF8B776D79A224F7006F /* Pods_FlomioSDK_Example.framework in Frameworks */,
+				E8F0D90FC1B942A1B1FC8DBD /* Pods_FlomioSDK_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,7 +49,7 @@
 				A2DA6ECE201A03E6003C00DD /* FlomioSDK_Example */,
 				A2DA6ECD201A03E6003C00DD /* Products */,
 				E6E0CDA8CF028C73A57DDA27 /* Frameworks */,
-				C9555BE34C52D314DCECB4D2 /* Pods */,
+				C39F92F3F3826504096D55FF /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,11 +74,11 @@
 			path = FlomioSDK_Example;
 			sourceTree = "<group>";
 		};
-		C9555BE34C52D314DCECB4D2 /* Pods */ = {
+		C39F92F3F3826504096D55FF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D65771370A19EA5388448E7D /* Pods-FlomioSDK_Example.debug.xcconfig */,
-				12F3ECFF89DF694901BB50B9 /* Pods-FlomioSDK_Example.release.xcconfig */,
+				49326AD4D1E38F65551CBA25 /* Pods-FlomioSDK_Example.debug.xcconfig */,
+				178D0E19775388B7E44E0C41 /* Pods-FlomioSDK_Example.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -87,7 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				A2DA6EE1201A05A2003C00DD /* libz.1.2.5.tbd */,
-				6C672FC49DDBC5845C0457BD /* Pods_FlomioSDK_Example.framework */,
+				87B7023A69C63962CE1A0AB1 /* Pods_FlomioSDK_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -99,12 +99,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2DA6EDE201A03E6003C00DD /* Build configuration list for PBXNativeTarget "FlomioSDK_Example" */;
 			buildPhases = (
-				7A0CF36C1FD2495758EE2265 /* [CP] Check Pods Manifest.lock */,
+				197627519B2064BA6AA50574 /* [CP] Check Pods Manifest.lock */,
 				A2DA6EC8201A03E6003C00DD /* Sources */,
 				A2DA6EC9201A03E6003C00DD /* Frameworks */,
 				A2DA6ECA201A03E6003C00DD /* Resources */,
-				F497819AAAAD18D09D1D0CC4 /* [CP] Embed Pods Frameworks */,
-				E21CF2BF2EF367F19D6A38B4 /* [CP] Copy Pods Resources */,
+				76BAD4FFD62D5A4D6E20E797 /* [CP] Embed Pods Frameworks */,
+				DD8D28A07E1293B3EA1263B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,7 +163,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7A0CF36C1FD2495758EE2265 /* [CP] Check Pods Manifest.lock */ = {
+		197627519B2064BA6AA50574 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -181,25 +181,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E21CF2BF2EF367F19D6A38B4 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-FlomioSDK_Example/Pods-FlomioSDK_Example-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/FlomioSDK/FlomioSDK.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FlomioSDK.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlomioSDK_Example/Pods-FlomioSDK_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F497819AAAAD18D09D1D0CC4 /* [CP] Embed Pods Frameworks */ = {
+		76BAD4FFD62D5A4D6E20E797 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -215,6 +197,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlomioSDK_Example/Pods-FlomioSDK_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD8D28A07E1293B3EA1263B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FlomioSDK_Example/Pods-FlomioSDK_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FlomioSDK/FlomioSDK.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FlomioSDK.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlomioSDK_Example/Pods-FlomioSDK_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -363,7 +363,7 @@
 		};
 		A2DA6EDF201A03E6003C00DD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D65771370A19EA5388448E7D /* Pods-FlomioSDK_Example.debug.xcconfig */;
+			baseConfigurationReference = 49326AD4D1E38F65551CBA25 /* Pods-FlomioSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -390,7 +390,7 @@
 		};
 		A2DA6EE0201A03E6003C00DD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12F3ECFF89DF694901BB50B9 /* Pods-FlomioSDK_Example.release.xcconfig */;
+			baseConfigurationReference = 178D0E19775388B7E44E0C41 /* Pods-FlomioSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
