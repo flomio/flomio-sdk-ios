@@ -61,6 +61,7 @@
 @property(nonatomic, copy) void (^completionBlock)(NSString *);
 @property(nonatomic, copy) void (^escapeCommandCompletionBlock)(NSData *);
 @property (nonatomic, assign) NSNumber *isCeMode;
+@property (nonatomic, assign) NSNumber *isVasMode;
 
 
 @end

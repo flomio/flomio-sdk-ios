@@ -17,13 +17,13 @@
 
 @property (nonatomic) TagDiscovery tagDiscovery;
 @property (nonatomic, strong) NSNumber *scanPeriod; // in milliseconds
-@property (nonatomic, strong) NSNumber *scanSound;
+@property (nonatomic, assign) NSNumber *scanSound;
 @property (nonatomic) PowerOperation powerOperation;
 @property (nonatomic) TransmitPower transmitPower;
 @property (nonatomic, strong) NSNumber *allowMultiConnect;
 @property (nonatomic, strong) NSString *specificDeviceUid;
-@property (nonatomic, strong) NSNumber *isCeMode;
-@property (nonatomic, strong) NSArray *rfidTagsToFind;
+@property (nonatomic, assign) NSNumber *isCeMode;
+@property (nonatomic, assign) NSNumber *isVasMode;
 
 - (void)setConfiguration:(FmConfiguration *)configurationDictionary;
 

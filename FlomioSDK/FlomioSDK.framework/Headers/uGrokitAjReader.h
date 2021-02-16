@@ -47,7 +47,6 @@
 @property (nonatomic) UgiInventoryTypes inventoryType;
 @property (nonatomic) int specialFunction;
 @property (nonatomic, strong) UgiTag *currentTag;
-@property (nonatomic, strong) FmConfiguration *configuration;
 
 @property (retain, nonatomic) NSMutableArray<UgiTag *> *displayedTags;
 @property (retain, nonatomic) NSMutableDictionary<UgiEpc *, NSMutableString *> *epcToDetailString;
