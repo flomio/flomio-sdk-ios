@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/ABTAcr1255uj1Reader.h</key>
 		<data>
-		diDHuqT5XuNlCfQEhCepiK5V0cw=
+		CVxgkp79ht1ExKTBlTcj9MubGNc=
 		</data>
 		<key>Headers/ABTBluetoothReader.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/ACRAesTrackData.h</key>
 		<data>
-		UvUgzYfSRNrJ6TyPWEcE9XYnEX8=
+		Y50mER1Hyin46MVsNbrJ+GzHQ2c=
 		</data>
 		<key>Headers/ACRAudioJackReader.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Headers/ACRDukptTrackData.h</key>
 		<data>
-		4WyF22qmXY1A2LIuMpxe3QpzItk=
+		WRGuM0LqM2ejH91V5N4sg1sKv1Q=
 		</data>
 		<key>Headers/ACRResult.h</key>
 		<data>
@@ -66,15 +66,15 @@
 		</data>
 		<key>Headers/AcsAjReader.h</key>
 		<data>
-		zRlceUghnP++tikiEsh7MxL/WfY=
+		omLhLM9V83rcOVNVbes/fIPzUAU=
 		</data>
 		<key>Headers/AcsBtReader.h</key>
 		<data>
-		aoBep05QLLMV+sxAr6jDGoVmEIg=
+		kOyvCU5SvxZXc7BiZQpTNxvCJns=
 		</data>
 		<key>Headers/AudioJack.h</key>
 		<data>
-		XEfvssTKBis9ptvSFb0W1W0wqmE=
+		PnhuJ4cFVMRxK0x0IszlruO9+fY=
 		</data>
 		<key>Headers/AudioJackErrors.h</key>
 		<data>
@@ -90,15 +90,15 @@
 		</data>
 		<key>Headers/FTaR530.h</key>
 		<data>
-		zdvKTmCkpb5FoznBBEHc0qMZuk0=
+		d7x95U99dRbj7+ev09RgAHqddlU=
 		</data>
 		<key>Headers/FeitianAjReader.h</key>
 		<data>
-		YLHgE7UYjPjJ5IkDJGjZ4L6KYfU=
+		RYXZddojaNyLv4f9s37EOTptAew=
 		</data>
 		<key>Headers/FeitianBtReader.h</key>
 		<data>
-		9p67yahXzwfCILCwRmgzacPIhqU=
+		Lc7USkYn4iWUHSR1wESRo/Zh4BA=
 		</data>
 		<key>Headers/FlomioSDK.h</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>Headers/FmConfiguration.h</key>
 		<data>
-		jC7txtK9nFBhQAZeuQFgl9zeVVM=
+		XsQHoWv0tLGyP+rYMxh3RUDGyqA=
 		</data>
 		<key>Headers/FmConnectionsManager.h</key>
 		<data>
@@ -134,15 +134,15 @@
 		</data>
 		<key>Headers/FmNdefMessage.h</key>
 		<data>
-		UZPT36wQx6O7WBl7QJhdU5u+KSY=
+		PRZixzLaAg3mZmtem785xWO8hfo=
 		</data>
 		<key>Headers/FmNdefRecord.h</key>
 		<data>
-		NC5foTzBJFdCeGd/gs0ygiTN6bU=
+		PYJzN+Z52NmUqMtF2LRpxapPjSo=
 		</data>
 		<key>Headers/FmReader.h</key>
 		<data>
-		/XkKED5M6s1x+1kkBVKLsieKYTs=
+		iiu0co55P7B7DMxzNqnkvWhP2sU=
 		</data>
 		<key>Headers/FmSession.h</key>
 		<data>
@@ -178,7 +178,7 @@
 		</data>
 		<key>Headers/Ugi.h</key>
 		<data>
-		HL2ca0oZhteE/o3FjMdYplvLHqQ=
+		v2VJCVkU6PCMvnAUX4YPUkOF3ag=
 		</data>
 		<key>Headers/UgiConfigurationDelegate.h</key>
 		<data>
@@ -186,19 +186,19 @@
 		</data>
 		<key>Headers/UgiEpc.h</key>
 		<data>
-		A7BJRFkUoXFBkOdqTIr59whnubs=
+		fb+XAIb5p2Y84QSBz6WA5QnpEzg=
 		</data>
 		<key>Headers/UgiFooterView.h</key>
 		<data>
-		zFAjL2sRsL6SThXNwFZD+HfpsfE=
+		EYsPNuINyaosjkmko/3m1IO91f8=
 		</data>
 		<key>Headers/UgiInventory.h</key>
 		<data>
-		ZwHCzO25yJeoKZcY7t3uy91C9NA=
+		VepcaCaVwCzCWUw0lnSYSCb9syY=
 		</data>
 		<key>Headers/UgiInventoryDelegate.h</key>
 		<data>
-		/8We6y4DgEPXsBzO74UhTocSp9A=
+		1IXNTB6BkYy9YYVnviGwYpd5FXI=
 		</data>
 		<key>Headers/UgiJson.h</key>
 		<data>
@@ -206,7 +206,7 @@
 		</data>
 		<key>Headers/UgiRfMicron.h</key>
 		<data>
-		cFqBVPlClOuZCFt67sInE/ytEkw=
+		u0yLdpinAopMj26n40RnZ+jCUXA=
 		</data>
 		<key>Headers/UgiRfidConfiguration.h</key>
 		<data>
@@ -214,27 +214,27 @@
 		</data>
 		<key>Headers/UgiTag.h</key>
 		<data>
-		2asdDmuA9Y4C9em3yyARjv1c7HA=
+		WTWj8fS8Dhnwx3l4Wlg7eFKWl1U=
 		</data>
 		<key>Headers/UgiTagCell.h</key>
 		<data>
-		SWR74LzlCFHGuIkJg8xsQogqetg=
+		RRNBqNAURuGmGIvsQMHXYNqinVY=
 		</data>
 		<key>Headers/UgiTagReadHistoryView.h</key>
 		<data>
-		xJL59BporYHvDm0BbngMCARRBfA=
+		vdjvZe4LndI/sAJTW58QhB12k+E=
 		</data>
 		<key>Headers/UgiTagReadState.h</key>
 		<data>
-		fVEdGUMqJF6amtJoDcPRbwRR3ds=
+		TEnIdCdk/ycOowI89I5xuKGXz9M=
 		</data>
 		<key>Headers/UgiTitleView.h</key>
 		<data>
-		v/7736spZzqST/rjJVG+dAvUBfk=
+		CRW9IQZqzlhQBGLHc415O42BOHA=
 		</data>
 		<key>Headers/UgiUiUtil.h</key>
 		<data>
-		xIq8rQeLLmMxGZwQadrTmQ7BW20=
+		NcHVgCXC0kJQdwgweZfjoVl7yRA=
 		</data>
 		<key>Headers/UgiUtil.h</key>
 		<data>
@@ -246,11 +246,11 @@
 		</data>
 		<key>Headers/ft301u.h</key>
 		<data>
-		rlb9sOWnus3VoWq2qL6KRlN1ELk=
+		5JwqAlyj5M8kDaTqVRaw8L7sYb8=
 		</data>
 		<key>Headers/uGrokitAjReader.h</key>
 		<data>
-		FyU9dghf/ETGd+0IJcUat5a4pMg=
+		F1eRBvK6fBUJMyJTrgHhQxz8ZF8=
 		</data>
 		<key>Headers/utils.h</key>
 		<data>
@@ -258,7 +258,7 @@
 		</data>
 		<key>Headers/winscard.h</key>
 		<data>
-		2i1rQxze1fA13Wr0/Ke3kxFneog=
+		Omi9NC4YxBWKvvo6eGGRdHW4GRc=
 		</data>
 		<key>Headers/wintypes.h</key>
 		<data>
@@ -266,7 +266,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0LhaxppsMuK4KcLLNoLhAsieIdg=
+		ipV/7JKfuHneE67kyYrTlu915Qc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -345,10 +345,6 @@
 	<dict>
 		<key>FloJackConnected150x150.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UBGCGjScQWrjvU/+iWOkp51y3z8=
-			</data>
 			<key>hash2</key>
 			<data>
 			RNNp9Nk0KGlyLIpfvWbbrJ8zeMQCPASw4cFTD5yxftc=
@@ -356,10 +352,6 @@
 		</dict>
 		<key>FloJackDisconnected150x150.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			47GkQDBJ9DWIbO0phk98rj+Q1X8=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZVjxEA/dzTjpfS/DqizdLC4y761iLG4ChawCs+hVeDc=
@@ -367,21 +359,13 @@
 		</dict>
 		<key>Headers/ABTAcr1255uj1Reader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			diDHuqT5XuNlCfQEhCepiK5V0cw=
-			</data>
 			<key>hash2</key>
 			<data>
-			1gAab/LwgaCbhglhUCLgNQoq1tTp02/BwkhTf8W8DLI=
+			JAdDW9+lQowm/fe1MwTgGMjNTR4yLu64iBRciuLN77w=
 			</data>
 		</dict>
 		<key>Headers/ABTBluetoothReader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fZ/fCYXUv5Jln/Xtr7wIFaH/dU4=
-			</data>
 			<key>hash2</key>
 			<data>
 			ChStGvnuBxxHmomH5w0HLv/Cg7ftZpQXTfOwFW1+OTA=
@@ -389,10 +373,6 @@
 		</dict>
 		<key>Headers/ABTBluetoothReaderManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vLyQ+rL7/WuD63JK6cwGuPM6SHg=
-			</data>
 			<key>hash2</key>
 			<data>
 			8QwUREN1uNnRMio4p6y9aQqV3sEUy4A89/tEdTA9Ck0=
@@ -400,21 +380,13 @@
 		</dict>
 		<key>Headers/ACRAesTrackData.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UvUgzYfSRNrJ6TyPWEcE9XYnEX8=
-			</data>
 			<key>hash2</key>
 			<data>
-			3UviCacMW+5YhyUDxPYPnyfX1q5nYuSk6knoCl5IfTk=
+			B/60LGc62rbTVXxXS+a/9yUHYpIw8I30B8nosdibFXA=
 			</data>
 		</dict>
 		<key>Headers/ACRAudioJackReader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			g8HLrWTR44IYpcAiqe4ve/mTK1M=
-			</data>
 			<key>hash2</key>
 			<data>
 			+2CIXFHGQVsZOhEez1383ya1eokagfOf81emQ0Z3N7A=
@@ -422,10 +394,6 @@
 		</dict>
 		<key>Headers/ACRCRC16.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KKuxrXNrdEqugRmpAkkH8qGDG4A=
-			</data>
 			<key>hash2</key>
 			<data>
 			R+lUOl/2artrPzJhVn00xEvyMoTdQj3EjoaKfF24Exw=
@@ -433,10 +401,6 @@
 		</dict>
 		<key>Headers/ACRDukptReceiver.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			eD/vChf/w79CB5t55TH+u4aXTpo=
-			</data>
 			<key>hash2</key>
 			<data>
 			Rnp5aqahWB63JRpHCqx+He0R7+O9rD7fadN/zHHIdB0=
@@ -444,21 +408,13 @@
 		</dict>
 		<key>Headers/ACRDukptTrackData.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4WyF22qmXY1A2LIuMpxe3QpzItk=
-			</data>
 			<key>hash2</key>
 			<data>
-			vHiaSJxdpNPjQ6TlxZqjHYpRVA0scDWOJWdsn5PeXtk=
+			JGyGC/E9IgjatfoDRyu0lF9n5nmjpij53xiwX4ZPE7c=
 			</data>
 		</dict>
 		<key>Headers/ACRResult.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JnN9QNe0BrSZ8tShTNwL096Ys8E=
-			</data>
 			<key>hash2</key>
 			<data>
 			KQIP9kOBIP6QMBa0R7EQRfPzdjGv0ABkJ4iTFaF+buM=
@@ -466,10 +422,6 @@
 		</dict>
 		<key>Headers/ACRStatus.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			n2lJBzYkPlK07MYgkpm8oPHVaKE=
-			</data>
 			<key>hash2</key>
 			<data>
 			EV1uWGpAkWrRWfanCRt7SaLk2Zlwbr57W/hzJm/0RrI=
@@ -477,10 +429,6 @@
 		</dict>
 		<key>Headers/ACRTrack1Data.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VQTHlbaHgv51zsKHj0AcDlDL5UM=
-			</data>
 			<key>hash2</key>
 			<data>
 			icaz/NKanY4t5j6vOJiteSjc7k6QlCwsLbRqhyQ0wsk=
@@ -488,10 +436,6 @@
 		</dict>
 		<key>Headers/ACRTrack2Data.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fwS2kYtyQ2Xm9S3EIiZ48+ZxaCI=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZBVI4o7iWJuTuodzzFxnacaWOZuUnYlHQEqfXAbBCkA=
@@ -499,10 +443,6 @@
 		</dict>
 		<key>Headers/ACRTrackData.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			167LYVyu7qnG+RnBhQR18fbotGw=
-			</data>
 			<key>hash2</key>
 			<data>
 			Oc8pKwNtfFSEJIKv8AUforEsnHCCkSl72UgRbE/2FeQ=
@@ -510,43 +450,27 @@
 		</dict>
 		<key>Headers/AcsAjReader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zRlceUghnP++tikiEsh7MxL/WfY=
-			</data>
 			<key>hash2</key>
 			<data>
-			On6hz8gTlDygb8jcJKo7mNlnlT0hwcqeORFfO40vanU=
+			1o6NLo6lfjw3vAWk9JIkJmrJNvZQwufx2SIB1qOTbPM=
 			</data>
 		</dict>
 		<key>Headers/AcsBtReader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			aoBep05QLLMV+sxAr6jDGoVmEIg=
-			</data>
 			<key>hash2</key>
 			<data>
-			/jUWqvL/y7hjsoLEGOyAoozz/KRAyxFQNfjQcAjHfT0=
+			ebk90tZqG+fjDbrfYonDm4/Zeq127N+qzdOgm1kwp2g=
 			</data>
 		</dict>
 		<key>Headers/AudioJack.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XEfvssTKBis9ptvSFb0W1W0wqmE=
-			</data>
 			<key>hash2</key>
 			<data>
-			VoWfMtTba/UMq+3qcQ47AsVt4PDh8IJHMsSApICIwQM=
+			F/Sv7l+VeHzDnKKv2W8SoicNOoGYW6IzsVKP+L3bPBw=
 			</data>
 		</dict>
 		<key>Headers/AudioJackErrors.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4/JzruRkqXNTKm3w3gyTsGbZzZo=
-			</data>
 			<key>hash2</key>
 			<data>
 			TpXI/ChYw+vopQQUOHI6VhP2R//rzzmFtY6ZLKkNjRg=
@@ -554,10 +478,6 @@
 		</dict>
 		<key>Headers/C++Runtime.mm</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6eQ9lSceB4Ad7pyob/XQvw3jtbo=
-			</data>
 			<key>hash2</key>
 			<data>
 			FeapBkMSw2d87C+0nAKe5tLA9GlYjIH0hjEwZ86troY=
@@ -565,10 +485,6 @@
 		</dict>
 		<key>Headers/FTType.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VLozpixYSGMoengjNlgyOrEBiFo=
-			</data>
 			<key>hash2</key>
 			<data>
 			jbeGKIs+P1cPhGWfSFkXXBtzOU/lS3iukhtGf9+mhII=
@@ -576,43 +492,27 @@
 		</dict>
 		<key>Headers/FTaR530.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zdvKTmCkpb5FoznBBEHc0qMZuk0=
-			</data>
 			<key>hash2</key>
 			<data>
-			WUk+Su4VeDmOfe5AL/Ry/1yjN0kX5qfRaLQ2HWENSV4=
+			40QZNHiHgto8ogWyFeKSWT2qDDXr4yqK0BkvHkWq6Vg=
 			</data>
 		</dict>
 		<key>Headers/FeitianAjReader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YLHgE7UYjPjJ5IkDJGjZ4L6KYfU=
-			</data>
 			<key>hash2</key>
 			<data>
-			H8NR5SDquXkCaAqbDWLr3RNcNsg1gKXtEHXrawqGYg0=
+			FGM3HwZFIpxjUzPg6zk38HIxjX4Bs5ruFkpQ72dHvh8=
 			</data>
 		</dict>
 		<key>Headers/FeitianBtReader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9p67yahXzwfCILCwRmgzacPIhqU=
-			</data>
 			<key>hash2</key>
 			<data>
-			+jYn3lyzAkPq4Whcge7fiKSh8vA/vAMA7h15wGEpy8g=
+			yyqiFgKUTzvsD9+wSBUnxbx6kDlANPwnNLP13QNuuCM=
 			</data>
 		</dict>
 		<key>Headers/FlomioSDK.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			t0J3bjHMdIJGMRDKFfWqYaEdWxc=
-			</data>
 			<key>hash2</key>
 			<data>
 			1kxdrOffMurff8v0ovnf3zAQNxyLRAN/ISRjFGfKAuw=
@@ -620,10 +520,6 @@
 		</dict>
 		<key>Headers/FmAudioJackConnectionsManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uphV0NWUbpXleKJUPBm7NRHZmvU=
-			</data>
 			<key>hash2</key>
 			<data>
 			QtdlaMXCCF8NXGBixY+ZDnJv+JG8ql4KuM/AibnKaeM=
@@ -631,10 +527,6 @@
 		</dict>
 		<key>Headers/FmBluetoothConnectionsManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Eo5TLhk1OXZIQD0aO4wlF/EgdYs=
-			</data>
 			<key>hash2</key>
 			<data>
 			AUArYPlq4ocM5u28NWHyYpZp2mcizdZ/v+cfzxHXWpg=
@@ -642,21 +534,13 @@
 		</dict>
 		<key>Headers/FmConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jC7txtK9nFBhQAZeuQFgl9zeVVM=
-			</data>
 			<key>hash2</key>
 			<data>
-			p+WK5w4P2OVNKz606/mZtfGu79OGftCcBo/cRwHWhCQ=
+			HzLq0VWRmzvx+S0Ns0e6xUl49a8f8CG9mkiVL96R68E=
 			</data>
 		</dict>
 		<key>Headers/FmConnectionsManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			TsI4fGVvibO66SRhonzwzUyswQI=
-			</data>
 			<key>hash2</key>
 			<data>
 			7E21DqpB8UqKJ5KpgusEHrax6LORmjUIqz1SPXzeWlQ=
@@ -664,10 +548,6 @@
 		</dict>
 		<key>Headers/FmCustomTypes.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9ch0z9MaebfBnl/LP3UwpqpAW3w=
-			</data>
 			<key>hash2</key>
 			<data>
 			C4ehLl3u9FnkDdyUUsLuPKYaeIDHII5Vnl71Q7N3S5c=
@@ -675,10 +555,6 @@
 		</dict>
 		<key>Headers/FmErrorManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gOLQPxvIws4dTyOwJw+RCTOleIg=
-			</data>
 			<key>hash2</key>
 			<data>
 			Vk65bGpI2VPN39A7z2cIFos9GR6fhzq9zR17D+nCRHw=
@@ -686,10 +562,6 @@
 		</dict>
 		<key>Headers/FmMifareClassicTag.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gSXNWjoux43fP3qO8KbT/T7kRCo=
-			</data>
 			<key>hash2</key>
 			<data>
 			8gNN4Y8xdDlyNBFojzKDdOj5vhwDrGZX/dEORzvzKlA=
@@ -697,43 +569,27 @@
 		</dict>
 		<key>Headers/FmNdefMessage.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UZPT36wQx6O7WBl7QJhdU5u+KSY=
-			</data>
 			<key>hash2</key>
 			<data>
-			jRDtcBQm+DKmM1NeX6oEtYUXfhnazfpVm/hB4BW3mmk=
+			rxerrxTcTA4by0YLxdr3WJjVhSbdsall70a3hk81ydE=
 			</data>
 		</dict>
 		<key>Headers/FmNdefRecord.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NC5foTzBJFdCeGd/gs0ygiTN6bU=
-			</data>
 			<key>hash2</key>
 			<data>
-			BYDGg3lfoJNzvPIsnvxQ5UWlE3rm8qt/AocWal6wHCs=
+			3px1XWV4ig1UEOpIN+BWU/hmn2Wsw4s1s55M2N3JiOo=
 			</data>
 		</dict>
 		<key>Headers/FmReader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/XkKED5M6s1x+1kkBVKLsieKYTs=
-			</data>
 			<key>hash2</key>
 			<data>
-			6POJxzVacoCxQJAW+rpqYtjLiaV5ejAyu0wDLnAg740=
+			rVXQ/joEmZzYXlteo1xuXdqSzd2fYneBkSj9fe0cBYM=
 			</data>
 		</dict>
 		<key>Headers/FmSession.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+t+pjzM/GuC/K955DBEdlHfwMQg=
-			</data>
 			<key>hash2</key>
 			<data>
 			Lk67EOe+qAsB18ekgpVHBlzqypwofq4DqJyrMiNVVaw=
@@ -741,10 +597,6 @@
 		</dict>
 		<key>Headers/FmSessionManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			AbDs9WGnM6/YE1UZ6w/XtTd4u4I=
-			</data>
 			<key>hash2</key>
 			<data>
 			rBlJtVH/DhSWHA79eq1nlhxhPBZYFpGan4GIVyv6NWo=
@@ -752,10 +604,6 @@
 		</dict>
 		<key>Headers/FmTag.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uhjaxEiRPXyPym2CRjJ6NTlf/RE=
-			</data>
 			<key>hash2</key>
 			<data>
 			4iEtwKrAfoAdAb6p0c1rsGd65is0mjUSV57v4YvuC9o=
@@ -763,10 +611,6 @@
 		</dict>
 		<key>Headers/FmTagInventory.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8n9FVDkvcly/RFZW5gF0g8616lk=
-			</data>
 			<key>hash2</key>
 			<data>
 			rfsFCy3z26kvd8YaZmzBfSfmKRsIH7/p+vaO4En3oK0=
@@ -774,10 +618,6 @@
 		</dict>
 		<key>Headers/FmType2Tag.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2G5GJmlDzwYscyZK/gjfzJX7mJY=
-			</data>
 			<key>hash2</key>
 			<data>
 			q8+WWapMYGYVNXyWoxqEI+59Mjp8Fl8SJfdGAwnT+D0=
@@ -785,10 +625,6 @@
 		</dict>
 		<key>Headers/FmType4Tag.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nt7tbaQlj0Ry/ordNcXkFzke6w8=
-			</data>
 			<key>hash2</key>
 			<data>
 			dU17HGBPLl4NWIQXQ92prWrMigEQoDKdkRiHaDiUik4=
@@ -796,10 +632,6 @@
 		</dict>
 		<key>Headers/ReaderInterface.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6MO59Kewwm8dJvWMiXZO9jNNJXQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			lv1Ucv+Gyby0CKnS3DVW/+2QlrGkLf5eE5Ygex7PzLg=
@@ -807,10 +639,6 @@
 		</dict>
 		<key>Headers/TLV.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xFXuKmy3GGFi9FmURuuMQFO1TxE=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ve1AL1iqeXDB4eMDJ6yXJZskwDmTqUiobdjsJ8Xnlhw=
@@ -818,21 +646,13 @@
 		</dict>
 		<key>Headers/Ugi.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HL2ca0oZhteE/o3FjMdYplvLHqQ=
-			</data>
 			<key>hash2</key>
 			<data>
-			5r2d8HjhsHodaws8cBfR5p9kAff8QS4epNcBB5DUw2k=
+			Gn121B5Wf4GbY4TYhCDzMlc+ZF3AXrAqtssjEC5iHu4=
 			</data>
 		</dict>
 		<key>Headers/UgiConfigurationDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XKNO4l1OrOLxX4NVfjaojjHazW4=
-			</data>
 			<key>hash2</key>
 			<data>
 			MmAwZjKJt9LenuYcVIt80hAr9yMutLWU9JvAvRCuMG4=
@@ -840,54 +660,34 @@
 		</dict>
 		<key>Headers/UgiEpc.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			A7BJRFkUoXFBkOdqTIr59whnubs=
-			</data>
 			<key>hash2</key>
 			<data>
-			QNX3wNAQ1nOJfKkFCKTr2QStBntNzWi8mF42UV6SwJA=
+			qfdLcmefxEXgL9FB9AcsJrPTmu/s/EfsHQOQN5NG3Jw=
 			</data>
 		</dict>
 		<key>Headers/UgiFooterView.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zFAjL2sRsL6SThXNwFZD+HfpsfE=
-			</data>
 			<key>hash2</key>
 			<data>
-			aa4xpkqjF9xJff+iq14QRL/VygfjKhQmj8rwPAYvPw4=
+			txJQgQMX9PzaUa0lOZgbAsOhuZwBfy+4/0urx7m9j84=
 			</data>
 		</dict>
 		<key>Headers/UgiInventory.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZwHCzO25yJeoKZcY7t3uy91C9NA=
-			</data>
 			<key>hash2</key>
 			<data>
-			LVih1Nz3ayBHwMA9RBzFJ6aBTIWU2eNgO7ar7rPNvDI=
+			BM9Mf/gbV7joYcbedBlvKspzZNDFPDcOLolsAbE9668=
 			</data>
 		</dict>
 		<key>Headers/UgiInventoryDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/8We6y4DgEPXsBzO74UhTocSp9A=
-			</data>
 			<key>hash2</key>
 			<data>
-			cSLF0x4a2bamwobjp38heYzHR9UlNll9GpFSJ5ngf1g=
+			fYBVinPO6SLyYsg8ynNl5mbig9eHVbWxgZhBLlW8FNE=
 			</data>
 		</dict>
 		<key>Headers/UgiJson.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+4rajMOkEyHns/+WUe9w0JL7kqY=
-			</data>
 			<key>hash2</key>
 			<data>
 			WF8GqqJ9MCBIFrFNyasaibtrJBsDMuTQHAV9Ag0DvYg=
@@ -895,21 +695,13 @@
 		</dict>
 		<key>Headers/UgiRfMicron.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			cFqBVPlClOuZCFt67sInE/ytEkw=
-			</data>
 			<key>hash2</key>
 			<data>
-			vobk5G+NM7tRhA/s4K8q0hDAc5CHPZXypAq7jbVHy9U=
+			tyU0Jgy1RaKNr1zc/y202DO0PaTm12vDtQxFZRF2jU4=
 			</data>
 		</dict>
 		<key>Headers/UgiRfidConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZmrJ0zDvJytDC9puk7wo+S4FqCc=
-			</data>
 			<key>hash2</key>
 			<data>
 			8htMHVSv9OD5lHj4l06T7rq10c+6xB/t0dj/C1h5/ic=
@@ -917,76 +709,48 @@
 		</dict>
 		<key>Headers/UgiTag.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2asdDmuA9Y4C9em3yyARjv1c7HA=
-			</data>
 			<key>hash2</key>
 			<data>
-			C2uW7IHDk19Nts4S8hs85Dh/F9GymNg3iwQCDbCqUeU=
+			IyAkLI0AdlPeaw8ggkjuB2VhSgGMg0HkrRfMlQi07YA=
 			</data>
 		</dict>
 		<key>Headers/UgiTagCell.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SWR74LzlCFHGuIkJg8xsQogqetg=
-			</data>
 			<key>hash2</key>
 			<data>
-			aGBg00+xAQQ5+ILKYhXJ4K3/sUGg9sNSceRLqgECKu4=
+			hTuUiPFla4v5CJ5fP9ZNKdPl+H5L6zifIGc5chyQv/E=
 			</data>
 		</dict>
 		<key>Headers/UgiTagReadHistoryView.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xJL59BporYHvDm0BbngMCARRBfA=
-			</data>
 			<key>hash2</key>
 			<data>
-			DfTyq1E3ghPfqE1W/8BCfpjSkisruVe6/RqJeFHADSc=
+			g935ghaWYKWXYnm/6n9vnv0qraJEPTKq7AsFfviPV3Q=
 			</data>
 		</dict>
 		<key>Headers/UgiTagReadState.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fVEdGUMqJF6amtJoDcPRbwRR3ds=
-			</data>
 			<key>hash2</key>
 			<data>
-			Mwb1QDoOVULr1WXuHvK5px7PBVRr55+dtS1hLN7imUE=
+			lVpTTNR0bKqvlJXkZlVemEulerx9mkKeQAGlt0GFJPM=
 			</data>
 		</dict>
 		<key>Headers/UgiTitleView.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			v/7736spZzqST/rjJVG+dAvUBfk=
-			</data>
 			<key>hash2</key>
 			<data>
-			vqv2ead3AIQxqPvG8CBPasz07FX/CejJis1IOzZ4xTY=
+			RLITbsXGfOfOWKCmheGThNIaCWzWH5/yyp7LmD+TxwU=
 			</data>
 		</dict>
 		<key>Headers/UgiUiUtil.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xIq8rQeLLmMxGZwQadrTmQ7BW20=
-			</data>
 			<key>hash2</key>
 			<data>
-			OyWF7BuAYaiOtwBN2NGl15vkhIinHbrCwoyWH3TU3e4=
+			9vwT2QNynP6hDEVEIUz9sekboAmciBADA426ZHC1GM8=
 			</data>
 		</dict>
 		<key>Headers/UgiUtil.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			DUeTnC0BrS1eaonQibjntoJ4VlY=
-			</data>
 			<key>hash2</key>
 			<data>
 			Obd+q2o45puHK0YeX5IijiduXz+DxxK14XEM5LA2J2g=
@@ -994,10 +758,6 @@
 		</dict>
 		<key>Headers/Utilities.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/6ipRev8nOEMoDgJ6GSL6zlgP0I=
-			</data>
 			<key>hash2</key>
 			<data>
 			cnunr1L1XTqgqn9jZ1eVqXuJzqyJpfWWDzoH7+A+pV4=
@@ -1005,32 +765,20 @@
 		</dict>
 		<key>Headers/ft301u.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rlb9sOWnus3VoWq2qL6KRlN1ELk=
-			</data>
 			<key>hash2</key>
 			<data>
-			8oprfBs03PoSElXr9GYTVGPaWc5s8UcOrOLhBkvXcJE=
+			jVoaoWsG0PL8pNKYOTkwxkMYDehm5b2HYr1FXc8Hr2I=
 			</data>
 		</dict>
 		<key>Headers/uGrokitAjReader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FyU9dghf/ETGd+0IJcUat5a4pMg=
-			</data>
 			<key>hash2</key>
 			<data>
-			XQjGjgvxMWLRFjKluwx4R/JgHpcnRHNxNq5flvUHeKU=
+			aOj7YHiN2aSpD4GKIdqnmL43JvaRDPuFATgOSbt80x8=
 			</data>
 		</dict>
 		<key>Headers/utils.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SddQ8fj4khSG1x7ZW1lCl6Xu9qw=
-			</data>
 			<key>hash2</key>
 			<data>
 			Vfyjd4AROQ4/1218wTXso3X/H5gXYXDyWnb6H40R160=
@@ -1038,21 +786,13 @@
 		</dict>
 		<key>Headers/winscard.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2i1rQxze1fA13Wr0/Ke3kxFneog=
-			</data>
 			<key>hash2</key>
 			<data>
-			kgC677cK52JeT29sCA9cYHwt9R+ZaLLmfMXnSQcBQkw=
+			5x69puClYnPTtbgBdKivhBI1S6aizFYEyNfQ8lXT8CM=
 			</data>
 		</dict>
 		<key>Headers/wintypes.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			V4QNbJN3RGEZzEQ0P/myxNRrP74=
-			</data>
 			<key>hash2</key>
 			<data>
 			/nDwp0ydW7le5hPZNug8E5SegtVaeVyxNeP8WPGuVPg=
@@ -1060,10 +800,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JvmITBD2iygwe0iTV7LPrSbh5vE=
-			</data>
 			<key>hash2</key>
 			<data>
 			LD5+wqlShEpJvGo9G5ogfE16qmf+DhnUv5liNJhdlRw=
@@ -1071,10 +807,6 @@
 		</dict>
 		<key>PrivateHeaders/ABTAcr3901us1Reader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			biWAbf7VUTwY2rFGrfZwct1T1CQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			5wFpSic5n4jBzQ+acykSO4xKhvFOR1mcpkxM9RG5/TI=
@@ -1082,10 +814,6 @@
 		</dict>
 		<key>PrivateHeaders/ABTError.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lYUWSEPbmF5zEZI4cuERXBqrh6g=
-			</data>
 			<key>hash2</key>
 			<data>
 			wu/DE9a43uoptdh+kNOAdi5oF/HXfj+yKVeMarklWhg=
@@ -1093,10 +821,6 @@
 		</dict>
 		<key>PrivateHeaders/Analytics.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rdAn9NS49a48EmetlwW5NwqVt2I=
-			</data>
 			<key>hash2</key>
 			<data>
 			Kf+r7Sl2G7FJeCmE9WMQlWuFM2zAZP3/v4R01DdvSgw=
@@ -1104,10 +828,6 @@
 		</dict>
 		<key>PrivateHeaders/DUKPT.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			I7rSTjYESGpR4Geu/GfkP9nRyNQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			OQtwAnvW6l4DCVTdLXweHkfyYcK6kTm8bLMJPNCzPMc=
@@ -1115,10 +835,6 @@
 		</dict>
 		<key>PrivateHeaders/FlomioBtReader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VwmKVqphYeJUaSOB3HuIu86a0V8=
-			</data>
 			<key>hash2</key>
 			<data>
 			SlEfU+oTWXNlfYDp2ciqt6AHRI8DcRv+zc5rRiojC6E=
@@ -1126,10 +842,6 @@
 		</dict>
 		<key>PrivateHeaders/FlomioComm.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PBA4K+pxyGz+MkbU0MT7LO4kAAI=
-			</data>
 			<key>hash2</key>
 			<data>
 			O8C9/wHRA0BsSqNx7RvMl48DsHwvg3lgJ0gbQ8NcRhE=
@@ -1137,10 +849,6 @@
 		</dict>
 		<key>PrivateHeaders/FtBleReader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Gvc0LNkWJsrstajZvQ+Vz22JX4s=
-			</data>
 			<key>hash2</key>
 			<data>
 			8M7Gzn1cwP5eW6jICRgrsKodjxI1cLglK4jQERPG9Jk=
@@ -1148,10 +856,6 @@
 		</dict>
 		<key>PrivateHeaders/UgiButton.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			cR3d2kgeL5MOYEnQKOJLzB6ZStU=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZyVdl6S03f4QxnQwTfExeokJpwVULb6wtmpLA7EWJdk=
@@ -1159,10 +863,6 @@
 		</dict>
 		<key>PrivateHeaders/UgiDefaultConfigurationUi.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rNtYgrSEJh3qoG7cfH2Ldi9v/KE=
-			</data>
 			<key>hash2</key>
 			<data>
 			MM6WcqJlm1jFc6s36J7itnmAgMnZvqEycHBrvjfGQ+M=
@@ -1170,10 +870,6 @@
 		</dict>
 		<key>PrivateHeaders/UgiFarsens.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			DPZ0njc72MUjoklyZ3lEcwu2sZc=
-			</data>
 			<key>hash2</key>
 			<data>
 			maR+yLXbhKgErTIPNVY35UNfTG6MeTT20/pGS6yw/aE=
@@ -1181,10 +877,6 @@
 		</dict>
 		<key>PrivateHeaders/UgiStatusImageView.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2BAP8cnpOvFgN4Goc36PtUg17oI=
-			</data>
 			<key>hash2</key>
 			<data>
 			K4MFz/dP8Zz1El12BDpQEyOrK/0z8Tp2qW4urBnSn9w=
@@ -1192,10 +884,6 @@
 		</dict>
 		<key>PrivateHeaders/UgiSwiftBridgingHeader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YGENp5kkNsNskwR1bss+VBc1RJU=
-			</data>
 			<key>hash2</key>
 			<data>
 			D1rWhXYiEpU0eQH5LFqnOOu6z6B85Mn98VfMoM4hOuo=
@@ -1203,10 +891,6 @@
 		</dict>
 		<key>PrivateHeaders/UgiViewController.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Wlj3MCYAvvnjTPzIo8XgF8tkyv8=
-			</data>
 			<key>hash2</key>
 			<data>
 			NF/7SnlMVVAWr6TMIPdfKU7HUgbTy01bXuBh7qzp6ow=
@@ -1214,10 +898,6 @@
 		</dict>
 		<key>PrivateHeaders/Ugi_antennaTuning.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HsIJfOrKJrTIAu5wuSzdKAhL8Ag=
-			</data>
 			<key>hash2</key>
 			<data>
 			WrsfkXftOBVvsrD24PL8FvRLNeFQMEiFsYTsZ/7wAYw=
@@ -1225,10 +905,6 @@
 		</dict>
 		<key>PrivateHeaders/Ugi_firmwareUpdate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			R18S31jVfnOCoxBFE+i5JufRYYM=
-			</data>
 			<key>hash2</key>
 			<data>
 			R+Z4mm2Hyb5Xc194Q8DqjmUUxta3kJQqksuUfShbfCA=
@@ -1236,10 +912,6 @@
 		</dict>
 		<key>ScanSound.caf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+76UkBdF0A5wXTzT/TOpEXrZfGs=
-			</data>
 			<key>hash2</key>
 			<data>
 			iDo6Bx1wQuPt6luEKGIqKABnSkxfCZ4H4ae3pxuR4bI=
@@ -1247,10 +919,6 @@
 		</dict>
 		<key>UgiFooterView.textClipping</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-			</data>
 			<key>hash2</key>
 			<data>
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
@@ -1259,7 +927,7 @@
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -1290,24 +958,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -1343,13 +999,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>

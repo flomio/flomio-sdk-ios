@@ -24,6 +24,7 @@ class ViewController: UIViewController, FmSessionManagerDelegate {
     defaultConfiguration.scanPeriod = 1000
     defaultConfiguration.powerOperation = .autoPollingControl
     defaultConfiguration.allowMultiConnect = false
+    defaultConfiguration.isCeMode = true
     flomioSDK = FmSessionManager.init(configuration: defaultConfiguration)
     flomioSDK.delegate = self
   }
@@ -56,6 +57,8 @@ class ViewController: UIViewController, FmSessionManagerDelegate {
     DispatchQueue.main.async {
       if let thisDeviceUid = deviceUid {
         print("Device: \(thisDeviceUid) Registered: \(isRegistered)")
+        let ndef = FmNdefMessage.createURI(with: "flomio.com")
+        self.flomioSDK.updateCeNdef(ndef,withDeviceUid: thisDeviceUid)
       }
     }
   }
@@ -73,7 +76,7 @@ class ViewController: UIViewController, FmSessionManagerDelegate {
   
   func didReceiveReaderError(_ error: Error!) {
     DispatchQueue.main.async {
-      print("Error: \(error)")
+        print("Error: \(String(describing: error))")
     }
   }
 }
